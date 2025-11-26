@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ item.ItemName }}{% endblock %}
+
+{% block content %}
+    <h1>{{ item.ItemName }}</h1>
+    <img src="{% static item.ItemImg %}" alt="{{ item.ItemName }}" class="detail-img">
+    
+    <h3>Details</h3>
+    <ul>
+        <li><strong>Tier:</strong> {{ item.ItemTier }}</li>
+        <li><strong>Stack Type:</strong> {{ item.ItemStackType }}</li>
+        <li><strong>Type:</strong> {{ item.ItemActPass }}</li>
+        <li><strong>Cooldown:</strong> {{ item.Cooldown }}</li>
+    </ul>
+
+    <h3>Description</h3>
+    <p>{{ item.ItemDescription }}</p>
+
+    <div style="clear: both;"></div>
+    <br>
+    <a href="{% url 'item-list' %}">Back to Item List</a>
+{% endblock %}

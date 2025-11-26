@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ survivor.SurvivorName }}{% endblock %}
+
+{% block content %}
+    <h1>{{ survivor.SurvivorName }}</h1>
+    <img src="{% static survivor.SurvivorImg %}" alt="{{ survivor.SurvivorName }}" class="detail-img">
+    
+    <h3>Stats</h3>
+    <ul>
+        <li><strong>Health:</strong> {{ survivor.SurvivorHealth }}</li>
+        <li><strong>Health Regen:</strong> {{ survivor.SurvivorHPRegen }}</li>
+        <li><strong>Damage:</strong> {{ survivor.SurvivorDamage }}</li>
+        <li><strong>Armor:</strong> {{ survivor.SurvivorArmour }}</li>
+        <li><strong>Speed:</strong> {{ survivor.SurvivorSpeed }}</li>
+        <li><strong>Mass:</strong> {{ survivor.SurvivorMass }}</li>
+        <li><strong>Class:</strong> {{ survivor.Class }}</li>
+    </ul>
+
+    <h3>Description</h3>
+    <p>{{ survivor.SurvivorDescription }}</p>
+
+    <div style="clear: both;"></div>
+    <br>
+    <a href="{% url 'survivor-list' %}">Back to Survivor List</a>
+{% endblock %}

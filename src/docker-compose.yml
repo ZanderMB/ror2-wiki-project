@@ -1,6 +1,7 @@
 
 services:
   db:
+    container_name: ROR2_db
     image: postgres:16
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
@@ -17,6 +18,7 @@ services:
       retries: 30
 
   pgadmin:
+    container_name: ROR2_pgadmin
     image: dpage/pgadmin4:latest
     environment:
       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
@@ -28,7 +30,7 @@ services:
 
   web:
     build: .
-    container_name: wk6_web
+    container_name: ROR2_web
     command: bash -lc "test -f manage.py || django-admin startproject core . && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     environment:
       DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
