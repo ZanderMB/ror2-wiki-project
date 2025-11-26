@@ -1,20 +1,105 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}All Survivors{% endblock %}
-
 {% block content %}
-    <h1>All Survivors</h1>
-    <div class="grid">
-        {% for survivor in survivors %}
-            <div class="card">
-                <a href="{% url 'survivor-detail' survivor.pk %}">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+    body { 
+        background-color: #1a1a2e; 
+        color: #e0e0e0; 
+        border: 4px solid #4a4a7e; 
+        box-sizing: border-box; 
+        min-height: 100vh; 
+    }
+    .display-page-container { 
+        display: grid; 
+        grid-template-columns: 320px 1fr; 
+        gap: 20px; 
+        padding: 20px; 
+    }
+    .sidebar { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px; 
+    }
+    .sidebar-box {  
+        padding: 20px; 
+        background-color: rgba(0, 0, 0, 0.2); 
+    }
+    .logo-box, .title-box { 
+        text-align: center; 
+    }
+    .logo-image { 
+        max-width: 150px; 
+        height: auto; 
+    }
+    .title-box h1 { 
+        font-family: 'Do Hyeon', sans-serif; 
+        font-size: 3.5rem; color: #fff; 
+        margin: 0; 
+        line-height: 1; 
+    }
+    .description-box p { 
+        font-size: 1.1rem; 
+        line-height: 1.6; 
+        margin: 0; 
+    }
+    .icon-grid-container { 
+        padding: 20px; 
+        background-color: rgba(0, 0, 0, 0.2); 
+    }
+    .icon-grid {
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); 
+        gap: 15px; 
+    }
+    .icon-card { 
+        position: relative;  
+        aspect-ratio: 1 / 1;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        overflow: hidden; 
+        transition: transform 0.2s ease, border-color 0.2s ease; 
+    }
+    .icon-card:hover { 
+        transform: scale(1.1); 
+        border-color: #fff; 
+        z-index: 10; 
+    }
+    .icon-card img { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: contain; 
+    }
+    @media (max-width: 800px) { .display-page-container { grid-template-columns: 1fr; } }
+</style>
+
+<div class="display-page-container">
+    <!-- Left Sidebar Column -->
+    <aside class="sidebar">
+        <div class="sidebar-box logo-box">
+            <img src="{% static 'img-dump/ror2-logo.svg' %}" alt="ROR2 Logo" class="logo-image" href="{% url 'home' %}">
+        </div>
+        <div class="sidebar-box title-box">
+            <h1>SURVIVORS</h1>
+        </div>
+        <div class="sidebar-box description-box">
+            <p>Survivors are the various playable characters available in Risk of Rain 2, each with their own unique abilities. Players start with only the Commando and Huntress playable. The Railgunner becomes immediately playable with ownership of the Survivors of the Void DLC. The Seeker becomes immediately playable with ownership of the Seekers of the Storm DLC. he remaining Survivors are unlocked by accomplishing various Challenges.</p>
+        </div>
+    </aside>
+
+    <!-- Right Main Content Column -->
+    <main class="icon-grid-container">
+        <div class="icon-grid">
+            {% for survivor in survivors %}
+                <a href="{% url 'survivor-detail' survivor.pk %}" class="icon-card" title="{{ survivor.SurvivorName }}">
                     <img src="{% static survivor.SurvivorImg %}" alt="{{ survivor.SurvivorName }}">
-                    <p>{{ survivor.SurvivorName }}</p>
                 </a>
-            </div>
-        {% empty %}
-            <p>No survivors found.</p>
-        {% endfor %}
-    </div>
+            {% empty %}
+                <p>No survivors found in the database.</p>
+            {% endfor %}
+        </div>
+    </main>
+</div>
 {% endblock %}
