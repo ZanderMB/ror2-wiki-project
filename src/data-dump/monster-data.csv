@@ -1,58 +1,58 @@
 MonsterID,MonsterImg,MonsterName,MonsterHealth,MonsterDamage,MonsterHPRegen,MonsterArmour,MonsterSpeed,Class,MonsterType
-1,,Alloy Vulture,140 (+42),15 (+3),0,0,3,"Ranged	",Normal
-2,,Alloy Worship Unit,2500 (+750),15 (+3),0,30,7,"Ranged	",Special Boss
-3,,Alpha Construct,100 (+30),"	12 (+2.4)",0,0,0,"Ranged	",Normal
-4,,Artifact Reliquary,100000 (+30000),10 (+2),0,100000,0,"Ranged	",Special Boss
-5,,Aurelionite,2100 (+630),40 (+8),0,20,5,Melee/Ranged,Special Boss
-6,,Beetle,80 (+24),12 (+2.4),0,0,6,Melee/Ranged,Normal
-7,,Beetle Guard,480 (+144),12 (+2.4),0,0,17,Melee/Ranged,Normal
-8,,Beetle Queen,2100 (+630),25 (+5),0,20,6,"Ranged	",Boss
-9,,Bighorn Bison,480 (+144),12 (+2.4),0,0,3,Melee/Ranged,Normal
-10,,Blind Pest,80 (+24),15 (+3),0,0,6,"Ranged	",Normal
-11,,Blind Vermin,90 (+27),15 (+3),0,0,13,Melee,Normal
-12,,Brass Contraption,300 (+90),10 (+2),0,0,10,"Ranged	",Normal
-13,,Child,150 (+45),14 (+2.8),0,0,8.5,"Ranged	",Normal
-14,,Clay Apothecary,1050 (+315),20 (+4),0,0,5,"Ranged	",Normal
-15,,Clay Dunestrider,2100 (+630),20 (+4),0,20,9,"Ranged	",Boss
-16,,Clay Templar,700 (+210),16 (+3.2),0,0,6,"Ranged	",Normal
-17,,Elder Lemurian,900 (+270),16 (+3.2),0,0,13,Ranged,Normal
-18,,False Son,1000 (+300),18 (+3.6),0,23,14,Melee,Special Boss
-19,,Geep,500 (+150),6 (+1.2),0.6,0,8,Melee,Normal
-20,,Gip,250 (+75),3 (+0.6),0.6,0,5,Melee,Normal
-21,,Grandparent,3625 (+1088),26 (+5.2),0,20,0,Ranged,Boss
-22,,Greater Wisp,750 (+225),15 (+3),0,0,7,Ranged,Normal
-23,,Grovetender,2800 (+840),23 (+4.6),0,20,10,Ranged,Boss
-24,,Gup,1000 (+300),12 (+2.4),0.6,0,12,Melee,Normal
-25,,Halcyonite,900 (+270),20 (+4),0,10,4.95,Ranged,Normal
-26,,Healing Core,50 (+0),20 (+0),0,0,0,Self-Destruct,Special
-27,,Hermit Crab,100 (+30),12 (+2.4),0.6,0,10,Ranged,Normal
-28,,Imp,140 (+42),10 (+2),0.6,0,10,Melee,Normal
-29,,Imp Overlord,2800 (+840),16 (+3.2),0,20,13,Melee / Ranged,Boss
-30,,Jellyfish,60 (+18),5 (+1),0,0,10,Self-Destruct,Normal
-31,,Larva,45 (+14),11 (+2.2),0,0,1.5,Self-Destruct,Normal
-32,,Lemurian,80 (+24),12 (+2.4),0,0,7,Ranged / Melee,Normal
-33,,Lesser Wisp,35 (+10),3.5 (+0.7),0,0,6,Ranged,Normal
-34,,Lunar Chimera (Explode),180 (+54),11 (+2.2),0,0,8,Ranged / Self-Destruct,Normal
-35,,Lunar Chimera (Golem),1615 (+485),35 (+7),0.6,0,8,Ranged,Normal
-36,,Lunar Chimera (Wisp),850 (+255),15 (+3),0,0,18,Ranged,Normal
-37,,Magma Worm,2400 (+720),10 (+2),0,15,20,Melee,Boss
-38,,Malachite Urchin,250 (+75),18 (+3.6),0,100,0,Ranged,Special
-39,,Mini Mushrum,290 (+87),16 (+3.2),0.6,0,2,Ranged,Normal
-40,,Mithrix,1000 (+300),16 (+3.2),0,20,15,Melee / Ranged,Special Boss
-41,,Newt,500000 (+150000),12 (+2.4),0,100,0,N/A,Special
-42,,Overloading Worm,12000 (+3600),50 (+10),0,15,20,Melee,Boss
-43,,Parent,585 (+176),16 (+3.2),0,0,11,Melee,Normal
-44,,Scavenger,3800 (+1140),4 (+0.8),2,20,3,Ranged,Boss
-45,,Scorch Worm,425 (+128),20 (+4),0,0,16,Ranged,Normal
-46,,Solus Control Unit,2500 (+750),15 (+3),0,20,7,Ranged / Melee,Boss
-47,,Solus Probe,220 (+66),15 (+3),0,10,10,Ranged,Norma
-48,,Stone Golem,480 (+144),20 (+4),0,0,6.6,Ranged / Melee,Normal
-49,,Stone Titan,2100 (+630),40 (+8),0,20,5,Ranged / Melee,Boss
-50,,Void Barnacle,225 (+68),6 (+1.2),7.5,0,0,Ranged,Normal
-51,,Void Devastator,2800 (+840),12 (+2.4),0.6,20,8,Ranged / Self-Destruct,Boss
-52,,Void Infestor,45 (+14),11 (+2.2),0,0,14,Melee,Special
-53,,Void Jailer,2200 (+660),14 (+2.8),0,0,7,Ranged / Self-Destruct,Normal
-54,,Void Reaver,1900 (+570),12 (+2.4),0.6,0,6,Ranged / Self-Destruct,Normal
-55,,Voidling,2000 (+600),15 (+3),0,20,45,Ranged,Special Boss
-56,,Wandering Vagrant,2100 (+630),6.5 (+1.3),0,15,6,Ranged,Boss
-57,,Xi Construct,2800 (+840),13 (+2.6),0,15,60,Ranged,Boss
+1,src\data-dump\img-dump\monsters\Alloy_Vulture.webp,Alloy Vulture,140 (+42),15 (+3),0,0,3,"Ranged	",Normal
+2,src\data-dump\img-dump\monsters\Alloy_Worship_Unit.webp,Alloy Worship Unit,2500 (+750),15 (+3),0,30,7,"Ranged	",Special Boss
+3,src\data-dump\img-dump\monsters\Alpha_Construct.webp,Alpha Construct,100 (+30),"	12 (+2.4)",0,0,0,"Ranged	",Normal
+4,src\data-dump\img-dump\monsters\Artifact_Reliquary.webp,Artifact Reliquary,100000 (+30000),10 (+2),0,100000,0,"Ranged	",Special Boss
+5,src\data-dump\img-dump\monsters\Aurelionite.webp,Aurelionite,2100 (+630),40 (+8),0,20,5,Melee/Ranged,Special Boss
+6,src\data-dump\img-dump\monsters\Beetle.webp,Beetle,80 (+24),12 (+2.4),0,0,6,Melee/Ranged,Normal
+7,src\data-dump\img-dump\monsters\Beetle_Guard.webp,Beetle Guard,480 (+144),12 (+2.4),0,0,17,Melee/Ranged,Normal
+8,src\data-dump\img-dump\monsters\Beetle_Queen.png,Beetle Queen,2100 (+630),25 (+5),0,20,6,"Ranged	",Boss
+9,src\data-dump\img-dump\monsters\Bighorn_Bison.png,Bighorn Bison,480 (+144),12 (+2.4),0,0,3,Melee/Ranged,Normal
+10,src\data-dump\img-dump\monsters\Blind_Pest.webp,Blind Pest,80 (+24),15 (+3),0,0,6,"Ranged	",Normal
+11,src\data-dump\img-dump\monsters\Blind_Vermin.png,Blind Vermin,90 (+27),15 (+3),0,0,13,Melee,Normal
+12,src\data-dump\img-dump\monsters\Brass_Contraption.png,Brass Contraption,300 (+90),10 (+2),0,0,10,"Ranged	",Normal
+13,src\data-dump\img-dump\monsters\Child.webp,Child,150 (+45),14 (+2.8),0,0,8.5,"Ranged	",Normal
+14,src\data-dump\img-dump\monsters\Clay_Apothecary.webp,Clay Apothecary,1050 (+315),20 (+4),0,0,5,"Ranged	",Normal
+15,src\data-dump\img-dump\monsters\Clay_Dunestrider.webp,Clay Dunestrider,2100 (+630),20 (+4),0,20,9,"Ranged	",Boss
+16,src\data-dump\img-dump\monsters\Clay_Templar.webp,Clay Templar,700 (+210),16 (+3.2),0,0,6,"Ranged	",Normal
+17,src\data-dump\img-dump\monsters\Elder_Lemurian.png,Elder Lemurian,900 (+270),16 (+3.2),0,0,13,Ranged,Normal
+18,src\data-dump\img-dump\monsters\False_Son_%28Boss%29.webp,False Son,1000 (+300),18 (+3.6),0,23,14,Melee,Special Boss
+19,src\data-dump\img-dump\monsters\Geep.webp,Geep,500 (+150),6 (+1.2),0.6,0,8,Melee,Normal
+20,src\data-dump\img-dump\monsters\Gip.webp,Gip,250 (+75),3 (+0.6),0.6,0,5,Melee,Normal
+21,src\data-dump\img-dump\monsters\Grandparent.webp,Grandparent,3625 (+1088),26 (+5.2),0,20,0,Ranged,Boss
+22,src\data-dump\img-dump\monsters\Greater_Wisp.webp,Greater Wisp,750 (+225),15 (+3),0,0,7,Ranged,Normal
+23,src\data-dump\img-dump\monsters\Grovetender.webp,Grovetender,2800 (+840),23 (+4.6),0,20,10,Ranged,Boss
+24,src\data-dump\img-dump\monsters\Gup.webp,Gup,1000 (+300),12 (+2.4),0.6,0,12,Melee,Normal
+25,src\data-dump\img-dump\monsters\Halcyonite.webp,Halcyonite,900 (+270),20 (+4),0,10,4.95,Ranged,Normal
+26,src\data-dump\img-dump\monsters\Healing_Core.webp,Healing Core,50 (+0),20 (+0),0,0,0,Self-Destruct,Special
+27,src\data-dump\img-dump\monsters\Hermit_Crab.webp,Hermit Crab,100 (+30),12 (+2.4),0.6,0,10,Ranged,Normal
+28,src\data-dump\img-dump\monsters\Imp.png,Imp,140 (+42),10 (+2),0.6,0,10,Melee,Normal
+29,src\data-dump\img-dump\monsters\Imp_Overlord.png,Imp Overlord,2800 (+840),16 (+3.2),0,20,13,Melee / Ranged,Boss
+30,src\data-dump\img-dump\monsters\Jellyfish.webp,Jellyfish,60 (+18),5 (+1),0,0,10,Self-Destruct,Normal
+31,src\data-dump\img-dump\monsters\Larva.webp,Larva,45 (+14),11 (+2.2),0,0,1.5,Self-Destruct,Normal
+32,src\data-dump\img-dump\monsters\Lemurian.webp,Lemurian,80 (+24),12 (+2.4),0,0,7,Ranged / Melee,Normal
+33,src\data-dump\img-dump\monsters\Lesser_Wisp.webp,Lesser Wisp,35 (+10),3.5 (+0.7),0,0,6,Ranged,Normal
+34,src\data-dump\img-dump\monsters\Lunar_Chimera_(Exploder).png,Lunar Chimera (Explode),180 (+54),11 (+2.2),0,0,8,Ranged / Self-Destruct,Normal
+35,src\data-dump\img-dump\monsters\Lunar_Chimera_%28Golem%29.webp,Lunar Chimera (Golem),1615 (+485),35 (+7),0.6,0,8,Ranged,Normal
+36,src\data-dump\img-dump\monsters\Lunar_Chimera_%28Wisp%29.webp,Lunar Chimera (Wisp),850 (+255),15 (+3),0,0,18,Ranged,Normal
+37,src\data-dump\img-dump\monsters\Magma_Worm.png,Magma Worm,2400 (+720),10 (+2),0,15,20,Melee,Boss
+38,src\data-dump\img-dump\monsters\Malachite_Urchin.webp,Malachite Urchin,250 (+75),18 (+3.6),0,100,0,Ranged,Special
+39,src\data-dump\img-dump\monsters\Mini_Mushrum.webp,Mini Mushrum,290 (+87),16 (+3.2),0.6,0,2,Ranged,Normal
+40,src\data-dump\img-dump\monsters\Mini_Mushrum.webp,Mithrix,1000 (+300),16 (+3.2),0,20,15,Melee / Ranged,Special Boss
+41,src\data-dump\img-dump\monsters\Newt.webp,Newt,500000 (+150000),12 (+2.4),0,100,0,N/A,Special
+42,src\data-dump\img-dump\monsters\Overloading_Worm.webp,Overloading Worm,12000 (+3600),50 (+10),0,15,20,Melee,Boss
+43,src\data-dump\img-dump\monsters\Parent.webp,Parent,585 (+176),16 (+3.2),0,0,11,Melee,Normal
+44,src\data-dump\img-dump\monsters\Scavenger.webp,Scavenger,3800 (+1140),4 (+0.8),2,20,3,Ranged,Boss
+45,src\data-dump\img-dump\monsters\Scorch_Worm.webp,Scorch Worm,425 (+128),20 (+4),0,0,16,Ranged,Normal
+46,src\data-dump\img-dump\monsters\Solus_Control_Unit.webp,Solus Control Unit,2500 (+750),15 (+3),0,20,7,Ranged / Melee,Boss
+47,src\data-dump\img-dump\monsters\Solus_Probe.webp,Solus Probe,220 (+66),15 (+3),0,10,10,Ranged,Norma
+48,src\data-dump\img-dump\monsters\Stone_Golem.webp,Stone Golem,480 (+144),20 (+4),0,0,6.6,Ranged / Melee,Normal
+49,src\data-dump\img-dump\monsters\Stone_Titan.webp,Stone Titan,2100 (+630),40 (+8),0,20,5,Ranged / Melee,Boss
+50,src\data-dump\img-dump\monsters\Void_Barnacle.webp,Void Barnacle,225 (+68),6 (+1.2),7.5,0,0,Ranged,Normal
+51,src\data-dump\img-dump\monsters\Void_Devastator.webp,Void Devastator,2800 (+840),12 (+2.4),0.6,20,8,Ranged / Self-Destruct,Boss
+52,src\data-dump\img-dump\monsters\Void_Infestor.webp,Void Infestor,45 (+14),11 (+2.2),0,0,14,Melee,Special
+53,src\data-dump\img-dump\monsters\Void_Jailer.webp,Void Jailer,2200 (+660),14 (+2.8),0,0,7,Ranged / Self-Destruct,Normal
+54,src\data-dump\img-dump\monsters\Void_Reaver.webp,Void Reaver,1900 (+570),12 (+2.4),0.6,0,6,Ranged / Self-Destruct,Normal
+55,src\data-dump\img-dump\monsters\Voidling.webp,Voidling,2000 (+600),15 (+3),0,20,45,Ranged,Special Boss
+56,src\data-dump\img-dump\monsters\Wandering_Vagrant.webp,Wandering Vagrant,2100 (+630),6.5 (+1.3),0,15,6,Ranged,Boss
+57,src\data-dump\img-dump\monsters\Xi_Construct.png,Xi Construct,2800 (+840),13 (+2.6),0,15,60,Ranged,Boss
