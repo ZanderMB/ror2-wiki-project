@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ monster.MonsterName }}{% endblock %}
+
+{% block content %}
+    <h1>{{ monster.MonsterName }}</h1>
+    <img src="{% static monster.MonsterImg %}" alt="{{ monster.MonsterName }}" class="detail-img">
+    
+    <h3>Stats</h3>
+    <ul>
+        <li><strong>Health:</strong> {{ monster.MonsterHealth }}</li>
+        <li><strong>Health Regen:</strong> {{ monster.MonsterHPRegen }}</li>
+        <li><strong>Damage:</strong> {{ monster.MonsterDamage }}</li>
+        <li><strong>Armor:</strong> {{ monster.MonsterArmour }}</li>
+        <li><strong>Speed:</strong> {{ monster.MonsterSpeed }}</li>
+        <li><strong>Class:</strong> {{ monster.Class }}</li>
+        <li><strong>Type:</strong> {{ monster.MonsterType }}</li>
+    </ul>
+    
+    <div style="clear: both;"></div>
+    <br>
+    <a href="{% url 'monster-list' %}">Back to Monster List</a>
+{% endblock %}

@@ -1,203 +1,203 @@
-ItemID,ItemImg,ItemName,ItemDescription,ItemStackType,ItemTier,ItemAct-Pass,Cooldown
-1,src\data-dump\img-dump\items\Armor-Piercing_Rounds.webp,Armor-Piercing Rounds,Deal an additional 20% damage (+20% per stack) to bosses.,Linear,Common,Passive,-
-2,src\data-dump\img-dump\items\Backup_Magazine.png,Backup Magazine,Add +1 (+1 per stack) charge of your Secondary skill.,Linear,Common,Passive,-
-3,src\data-dump\img-dump\items\Bison_Steak.webp,Bison Steak,Increases maximum health by 25 (+25 per stack).,Linear,Common,Passive,-
-4,src\data-dump\img-dump\items\Bolstering_Lantern.webp,Bolstering Lantern,Increase your attack speed by 10% (+3.5% per stack) for up to 3 (+1 per stack) enemies and allies within 20 meters.,Linear,Common,Passive,-
-5,src\data-dump\img-dump\items\Bundle_of_Fireworks.webp,Bundle of Fireworks,Activating an interactable launches 8 (+4 per stack) fireworks that deal 300% base damage.,Linear,Common,Passive,-
-6,src\data-dump\img-dump\items\Bustling_Fungus.webp,Bustling Fungus,"After standing still for 1 second, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack).",Linear,Common,Passive,-
-7,src\data-dump\img-dump\items\Cautious_Slug.webp,Cautious Slug,Increases base health regeneration by +3 hp/s (+3 hp/s per stack) while outside of combat.,Linear,Common,Passive,-
-8,src\data-dump\img-dump\items\Chronic_Expansion.webp,Chronic Expansion,"Killing an enemy increase your damage by 3.5 (+1% per stack), up to 10 (+5 per stack), for 7s. Dealing damage refreshes the timer.",Linear,Common,Passive,-
-9,src\data-dump\img-dump\items\Crowbar.webp,Crowbar,Deal +75% (+75% per stack) damage to enemies above 90% health.,Linear,Common,Passive,-
-10,src\data-dump\img-dump\items\Delicate_Watch.webp,Delicate Watch,Increase damage by 20% (+20% per stack). Taking damage to below 25% health breaks this item.,Linear,Common,Passive,-
-11,src\data-dump\img-dump\items\Elusive_Antlers.webp,Elusive Antlers,"Spawns orbs of energy nearby every 10s (-10% per stack), giving +12% movement speed up to 3 (+3 per stack) times for 12s.","Hyperbolic
+ItemID,ItemImg,ItemName,ItemDescription,ItemStackType,ItemTier,ItemActPass,Cooldown
+1,img-dump\items\Armor-Piercing_Rounds.webp,Armor-Piercing Rounds,Deal an additional 20 damage (+20 per stack) to bosses.,Linear,Common,Passive,-
+2,img-dump\items\Backup_Magazine.png,Backup Magazine,Add +1 (+1 per stack) charge of your Secondary skill.,Linear,Common,Passive,-
+3,img-dump\items\Bison_Steak.webp,Bison Steak,Increases maximum health by 25 (+25 per stack).,Linear,Common,Passive,-
+4,img-dump\items\Bolstering_Lantern.webp,Bolstering Lantern,Increase your attack speed by 10 (+3.5 per stack) for up to 3 (+1 per stack) enemies and allies within 20 meters.,Linear,Common,Passive,-
+5,img-dump\items\Bundle_of_Fireworks.webp,Bundle of Fireworks,Activating an interactable launches 8 (+4 per stack) fireworks that deal 300 base damage.,Linear,Common,Passive,-
+6,img-dump\items\Bustling_Fungus.webp,Bustling Fungus,"After standing still for 1 second, create a zone that heals for 4.5 (+2.25 per stack) of your health every second to all allies within 3m (+1.5m per stack).",Linear,Common,Passive,-
+7,img-dump\items\Cautious_Slug.webp,Cautious Slug,Increases base health regeneration by +3 hp/s (+3 hp/s per stack) while outside of combat.,Linear,Common,Passive,-
+8,img-dump\items\Chronic_Expansion.webp,Chronic Expansion,"Killing an enemy increase your damage by 3.5 (+1 per stack), up to 10 (+5 per stack), for 7s. Dealing damage refreshes the timer.",Linear,Common,Passive,-
+9,img-dump\items\Crowbar.webp,Crowbar,Deal +75 (+75 per stack) damage to enemies above 90 health.,Linear,Common,Passive,-
+10,img-dump\items\Delicate_Watch.webp,Delicate Watch,Increase damage by 20 (+20 per stack). Taking damage to below 25 health breaks this item.,Linear,Common,Passive,-
+11,img-dump\items\Elusive_Antlers.webp,Elusive Antlers,"Spawns orbs of energy nearby every 10s (-10 per stack), giving +12 movement speed up to 3 (+3 per stack) times for 12s.","Hyperbolic
 Linear",Common,Passive,-
-12,src\data-dump\img-dump\items\Energy_Drink.webp,Energy Drink,Sprint speed is improved by 25% (+25% per stack).,Linear,Common,Passive,-
-13,src\data-dump\img-dump\items\Focus_Crystal.webp,Focus Crystal,Increase damage to enemies within 13m by 20% (+20% per stack).,Linear,Common,Passive,-
-14,src\data-dump\img-dump\items\Gasoline.webp,Gasoline,"Killing an enemy ignites all enemies within 12m (+4m per stack) for 150% base damage. Additionally, enemies burn for 150% (+75% per stack) base damage.",Linear,Common,Passive,-
-15,src\data-dump\img-dump\items\Item_Scrap%2C_White.webp,"Item Scrap, White",Does nothing. Prioritized when used with 3D Printers.,-,Common,Passive,-
-16,src\data-dump\img-dump\items\Lens-Maker%27s_Glasses.png,Lens-Maker's Glasses,"Your attacks have a 10% (+10% per stack) chance to 'Critically Strike', dealing double damage.",Linear,Common,Passive,-
-17,src\data-dump\img-dump\items\Medkit.webp,Medkit,"2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.",Linear,Common,Passive,-
-18,src\data-dump\img-dump\items\Mocha.webp,Mocha,Increases attack speed by 7.5% (+7.5 per stack) and movement speed by 7% (+7% per stack).,Linear,Common,Passive,-
-19,src\data-dump\img-dump\items\Monster_Tooth.png,Monster Tooth,Killing an enemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.,Linear,Common,Passive,-
-20,src\data-dump\img-dump\items\Oddly-shaped_Opal.webp,Oddly-shaped Opal,Increase armor by 100 (+100 per stack) while out of danger.,Linear,Common,Passive,-
-21,src\data-dump\img-dump\items\Paul%27s_Goat_Hoof.webp,Paul's Goat Hoof,Increases movement speed by 14% (+14% per stack).,Linear,Common,Passive,-
-22,src\data-dump\img-dump\items\Personal_Shield_Generator.webp,Personal Shield Generator,Gain a shield equal to 8% (+8% per stack) of your maximum health. Recharges outside of danger.,Linear,Common,Passive,-
-23,src\data-dump\img-dump\items\Power_Elixir.png,Power Elixir,"Taking damage to below 25% health consumes this item, healing you for 75% of maximum health.",,Common,Passive,-
-24,src\data-dump\img-dump\items\Repulsion_Armor_Plate.webp,Repulsion Armor Plate,Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.,Linear,Common,Passive,-
-25,src\data-dump\img-dump\items\Roll_of_Pennies.webp,Roll of Pennies,Gain 3 (+3 per stack) gold on taking damage from an enemy. Scales over time.,Linear,Common,Passive,-
-26,src\data-dump\img-dump\items\Rusted_Key.webp,Rusted Key,A hidden cache containing an item (80%/20%) will appear in a random location on each stage. Opening the cache consumes this item.,,Common,Passive,-
-27,src\data-dump\img-dump\items\Soldier%27s_Syringe.webp,Soldier's Syringe,Increases attack speed by 15% (+15% per stack).,Linear,Common,Passive,-
-28,src\data-dump\img-dump\items\Sticky_Bomb.webp,Sticky Bomb,"5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.",Linear,Common,Passive,-
-29,src\data-dump\img-dump\items\Stun_Grenade.webp,Stun Grenade,5% (+5% on stack) chance on hit to stun enemies for 2 seconds.,Hyperbolic,Common,Passive,-
-30,src\data-dump\img-dump\items\Topaz_Brooch.webp,Topaz Brooch,Gain a temporary barrier on kill for 15 health (+15 per stack).,Linear,Common,Passive,-
-31,src\data-dump\img-dump\items\Tougher_Times.webp,Tougher Times,15% (+15% per stack) chance to block incoming damage. Unaffected by luck.,Hyperbolic,Common,Passive,-
-32,src\data-dump\img-dump\items\Tri-Tip_Dagger.webp,Tri-Tip Dagger,10% (+10% per stack) chance to bleed an enemy for 240% base damage.,Linear,Common,Passive,-
-33,src\data-dump\img-dump\items\Warbanner.webp,Warbanner,"On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",Linear,Common,Passive,-
-34,src\data-dump\img-dump\items\Warped_Echo.webp,Warped Echo,The next source of damage is reduced by 20% and spread into 3 (+1 per stack) hits. All echoed damage is non-lethal except for the final hit. Recharges every 15s.,Linear,Common,Passive,-
-35,src\data-dump\img-dump\items\AtG_Missile_Mk._1.webp,AtG Missile Mk. 1,10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.,Linear,Uncommon,Passive,-
-36,src\data-dump\img-dump\items\Bandolier.webp,Bandolier,18% (+10% per stack) chance on kill to drop an ammo pack that resets all skill cooldowns.,Special,Uncommon,Passive,-
-37,src\data-dump\img-dump\items\Berzerker%27s_Pauldron.webp,Berzerker's Pauldron,Killing 4 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.,Linear,Uncommon,Passive,-
-38,src\data-dump\img-dump\items\Breaching_Fin.webp,Breaching Fin,Grounded enemies hit with any skill are launched and stunned. Enemies hit while airborne are launched again up to 2 times (+1 per stack). Launched enemies take increased damage by 10% from all sources per launch. Recharges after 15s.,Linear,Uncommon,Passive,-
-39,src\data-dump\img-dump\items\Chance_Doll.webp,Chance Doll,"On Shrine of Chance success, 40% (+10% per stack) chance to get higher rarity items.",Linear,Uncommon,Passive,-
-40,src\data-dump\img-dump\items\Chronobauble.webp,Chronobauble,Slow enemies on hit for -60% movement speed for 2s (+2s per stack).,Linear,Uncommon,Passive,-
-41,src\data-dump\img-dump\items\Death_Mark.webp,Death Mark,"Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% from all sources for 7 (+7 per stack) seconds.",Linear,Uncommon,Passive,-
-42,src\data-dump\img-dump\items\Fuel_Cell.webp,Fuel Cell,Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by 15% (+15% per stack).,"Linear
+12,img-dump\items\Energy_Drink.webp,Energy Drink,Sprint speed is improved by 25 (+25 per stack).,Linear,Common,Passive,-
+13,img-dump\items\Focus_Crystal.webp,Focus Crystal,Increase damage to enemies within 13m by 20 (+20 per stack).,Linear,Common,Passive,-
+14,img-dump\items\Gasoline.webp,Gasoline,"Killing an enemy ignites all enemies within 12m (+4m per stack) for 150 base damage. Additionally, enemies burn for 150 (+75 per stack) base damage.",Linear,Common,Passive,-
+15,img-dump\items\Item_Scrap2C_White.webp,"Item Scrap, White",Does nothing. Prioritized when used with 3D Printers.,-,Common,Passive,-
+16,img-dump\items\Lens-Maker27s_Glasses.png,Lens-Maker's Glasses,"Your attacks have a 10 (+10 per stack) chance to 'Critically Strike', dealing double damage.",Linear,Common,Passive,-
+17,img-dump\items\Medkit.webp,Medkit,"2 seconds after getting hurt, heal for 20 plus an additional 5 (+5 per stack) of maximum health.",Linear,Common,Passive,-
+18,img-dump\items\Mocha.webp,Mocha,Increases attack speed by 7.5 (+7.5 per stack) and movement speed by 7 (+7 per stack).,Linear,Common,Passive,-
+19,img-dump\items\Monster_Tooth.png,Monster Tooth,Killing an enemy spawns a healing orb that heals for 8 plus an additional 2 (+2 per stack) of maximum health.,Linear,Common,Passive,-
+20,img-dump\items\Oddly-shaped_Opal.webp,Oddly-shaped Opal,Increase armor by 100 (+100 per stack) while out of danger.,Linear,Common,Passive,-
+21,img-dump\items\Paul27s_Goat_Hoof.webp,Paul's Goat Hoof,Increases movement speed by 14 (+14 per stack).,Linear,Common,Passive,-
+22,img-dump\items\Personal_Shield_Generator.webp,Personal Shield Generator,Gain a shield equal to 8 (+8 per stack) of your maximum health. Recharges outside of danger.,Linear,Common,Passive,-
+23,img-dump\items\Power_Elixir.png,Power Elixir,"Taking damage to below 25 health consumes this item, healing you for 75 of maximum health.",,Common,Passive,-
+24,img-dump\items\Repulsion_Armor_Plate.webp,Repulsion Armor Plate,Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.,Linear,Common,Passive,-
+25,img-dump\items\Roll_of_Pennies.webp,Roll of Pennies,Gain 3 (+3 per stack) gold on taking damage from an enemy. Scales over time.,Linear,Common,Passive,-
+26,img-dump\items\Rusted_Key.webp,Rusted Key,A hidden cache containing an item (80/20) will appear in a random location on each stage. Opening the cache consumes this item.,,Common,Passive,-
+27,img-dump\items\Soldier27s_Syringe.webp,Soldier's Syringe,Increases attack speed by 15 (+15 per stack).,Linear,Common,Passive,-
+28,img-dump\items\Sticky_Bomb.webp,Sticky Bomb,"5 (+5 per stack) chance on hit to attach a bomb to an enemy, detonating for 180 TOTAL damage.",Linear,Common,Passive,-
+29,img-dump\items\Stun_Grenade.webp,Stun Grenade,5 (+5 on stack) chance on hit to stun enemies for 2 seconds.,Hyperbolic,Common,Passive,-
+30,img-dump\items\Topaz_Brooch.webp,Topaz Brooch,Gain a temporary barrier on kill for 15 health (+15 per stack).,Linear,Common,Passive,-
+31,img-dump\items\Tougher_Times.webp,Tougher Times,15 (+15 per stack) chance to block incoming damage. Unaffected by luck.,Hyperbolic,Common,Passive,-
+32,img-dump\items\Tri-Tip_Dagger.webp,Tri-Tip Dagger,10 (+10 per stack) chance to bleed an enemy for 240 base damage.,Linear,Common,Passive,-
+33,img-dump\items\Warbanner.webp,Warbanner,"On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30.",Linear,Common,Passive,-
+34,img-dump\items\Warped_Echo.webp,Warped Echo,The next source of damage is reduced by 20 and spread into 3 (+1 per stack) hits. All echoed damage is non-lethal except for the final hit. Recharges every 15s.,Linear,Common,Passive,-
+35,img-dump\items\AtG_Missile_Mk._1.webp,AtG Missile Mk. 1,10 chance to fire a missile that deals 300 (+300 per stack) TOTAL damage.,Linear,Uncommon,Passive,-
+36,img-dump\items\Bandolier.webp,Bandolier,18 (+10 per stack) chance on kill to drop an ammo pack that resets all skill cooldowns.,Special,Uncommon,Passive,-
+37,img-dump\items\Berzerker27s_Pauldron.webp,Berzerker's Pauldron,Killing 4 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50 and attack speed by 100.,Linear,Uncommon,Passive,-
+38,img-dump\items\Breaching_Fin.webp,Breaching Fin,Grounded enemies hit with any skill are launched and stunned. Enemies hit while airborne are launched again up to 2 times (+1 per stack). Launched enemies take increased damage by 10 from all sources per launch. Recharges after 15s.,Linear,Uncommon,Passive,-
+39,img-dump\items\Chance_Doll.webp,Chance Doll,"On Shrine of Chance success, 40 (+10 per stack) chance to get higher rarity items.",Linear,Uncommon,Passive,-
+40,img-dump\items\Chronobauble.webp,Chronobauble,Slow enemies on hit for -60 movement speed for 2s (+2s per stack).,Linear,Uncommon,Passive,-
+41,img-dump\items\Death_Mark.webp,Death Mark,"Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50 from all sources for 7 (+7 per stack) seconds.",Linear,Uncommon,Passive,-
+42,img-dump\items\Fuel_Cell.webp,Fuel Cell,Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by 15 (+15 per stack).,"Linear
 Exponential",Uncommon,Passive,-
-43,src\data-dump\img-dump\items\Ghor%27s_Tome.webp,Ghor's Tome,4% (+4% on stack) chance on kill to drop a treasure worth $25. Scales over time.,Linear,Uncommon,Passive,-
-44,src\data-dump\img-dump\items\Harvester%27s_Scythe.webp,Harvester's Scythe,Gain 5% critical chance. Critical strikes heal for 8 (+4 per stack) health.,"Linear
+43,img-dump\items\Ghor27s_Tome.webp,Ghor's Tome,4 (+4 on stack) chance on kill to drop a treasure worth $25. Scales over time.,Linear,Uncommon,Passive,-
+44,img-dump\items\Harvester27s_Scythe.webp,Harvester's Scythe,Gain 5 critical chance. Critical strikes heal for 8 (+4 per stack) health.,"Linear
 None",Uncommon,Passive,-
-45,src\data-dump\img-dump\items\Hopoo_Feather.webp,Hopoo Feather,Gain +1 (+1 per stack) maximum jump count.,Linear,Uncommon,Passive,-
-46,src\data-dump\img-dump\items\Hunter%27s_Harpoon.webp,Hunter's Harpoon,"Killing an enemy increases movement speed by 125%, fading over 1 (+0.5 per stack) seconds.",Linear,Uncommon,Passive,-
-47,src\data-dump\img-dump\items\Ignition_Tank.webp,Ignition Tank,Ignite effects deal +300% (+300% per stack) more damage over time.,Linear,Uncommon,Passive,-
-48,src\data-dump\img-dump\items\Infusion.webp,Infusion,"Killing an enemy increases your health permanently by 1 (+1 per stack), up to a maximum of 100 (+100 per stack) health.",Linear,Uncommon,Passive,-
-49,src\data-dump\img-dump\items\Item_Scrap%2C_Green.webp,"Item Scrap, Green",Does nothing. Prioritized when used with 3D Printers.,-,Uncommon,Passive,-
-50,src\data-dump\img-dump\items\Kjaro%27s_Band.webp,Kjaro's Band,"Hits that deal more than 400% damage also blasts enemies with a runic flame tornado, dealing 300% (+300% per stack) TOTAL damage over time. Recharges every 10 seconds.",Linear,Uncommon,Passive,-
-51,src\data-dump\img-dump\items\Leeching_Seed.webp,Leeching Seed,Dealing damage heals you for 1 (+1 per stack) health.,Linear,Uncommon,Passive,-
-52,src\data-dump\img-dump\items\Lepton_Daisy.webp,Lepton Daisy,"Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.",Linear,Uncommon,Passive,-
-53,src\data-dump\img-dump\items\Luminous_Shot.webp,Luminous Shot,"Activating Secondary skill stores up to 5 charges (+1 per stack). Requires 3 charges for your Primary skill to fire lightning strikes, dealing 175% TOTAL damage (+50% per stack) each. Reduces Secondary skill cooldown by 20%.",Linear,Uncommon,Passive,-
-54,src\data-dump\img-dump\items\Noxious_Thorn.webp,Noxious Thorn,"Gain 10% chance to bleed an enemy. On killing an enemy, transfer 33% of every debuff stack to 1 enemy (+1 per stack) within 20m (+5m per stack).",Linear,Uncommon,Passive,-
-55,src\data-dump\img-dump\items\Old_Guillotine.webp,Old Guillotine,Instantly kill Elite monsters below 13% (+13% per stack) health.,Hyperbolic,Uncommon,Passive,-
-56,src\data-dump\img-dump\items\Old_War_Stealthkit.webp,Old War Stealthkit,Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).,Exponential,Uncommon,Passive,-
-57,src\data-dump\img-dump\items\Prayer_Beads.webp,Prayer Beads,"Grows by gaining experience, storing 20% (+5% per item stack) bonus stats (health, regeneration, and damage). On removal, gain all stored stats.",Linear,Uncommon,Passive,-
-58,src\data-dump\img-dump\items\Predatory_Instincts.webp,Predatory Instincts,Gain 5% critical chance. Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.,"Linear
+45,img-dump\items\Hopoo_Feather.webp,Hopoo Feather,Gain +1 (+1 per stack) maximum jump count.,Linear,Uncommon,Passive,-
+46,img-dump\items\Hunter27s_Harpoon.webp,Hunter's Harpoon,"Killing an enemy increases movement speed by 125, fading over 1 (+0.5 per stack) seconds.",Linear,Uncommon,Passive,-
+47,img-dump\items\Ignition_Tank.webp,Ignition Tank,Ignite effects deal +300 (+300 per stack) more damage over time.,Linear,Uncommon,Passive,-
+48,img-dump\items\Infusion.webp,Infusion,"Killing an enemy increases your health permanently by 1 (+1 per stack), up to a maximum of 100 (+100 per stack) health.",Linear,Uncommon,Passive,-
+49,img-dump\items\Item_Scrap2C_Green.webp,"Item Scrap, Green",Does nothing. Prioritized when used with 3D Printers.,-,Uncommon,Passive,-
+50,img-dump\items\Kjaro27s_Band.webp,Kjaro's Band,"Hits that deal more than 400 damage also blasts enemies with a runic flame tornado, dealing 300 (+300 per stack) TOTAL damage over time. Recharges every 10 seconds.",Linear,Uncommon,Passive,-
+51,img-dump\items\Leeching_Seed.webp,Leeching Seed,Dealing damage heals you for 1 (+1 per stack) health.,Linear,Uncommon,Passive,-
+52,img-dump\items\Lepton_Daisy.webp,Lepton Daisy,"Release a healing nova during the Teleporter event, healing all nearby allies for 50 of their maximum health. Occurs 1 (+1 per stack) times.",Linear,Uncommon,Passive,-
+53,img-dump\items\Luminous_Shot.webp,Luminous Shot,"Activating Secondary skill stores up to 5 charges (+1 per stack). Requires 3 charges for your Primary skill to fire lightning strikes, dealing 175 TOTAL damage (+50 per stack) each. Reduces Secondary skill cooldown by 20.",Linear,Uncommon,Passive,-
+54,img-dump\items\Noxious_Thorn.webp,Noxious Thorn,"Gain 10 chance to bleed an enemy. On killing an enemy, transfer 33 of every debuff stack to 1 enemy (+1 per stack) within 20m (+5m per stack).",Linear,Uncommon,Passive,-
+55,img-dump\items\Old_Guillotine.webp,Old Guillotine,Instantly kill Elite monsters below 13 (+13 per stack) health.,Hyperbolic,Uncommon,Passive,-
+56,img-dump\items\Old_War_Stealthkit.webp,Old War Stealthkit,Falling below 25 health causes you to gain 40 movement speed and invisibility for 5s. Recharges every 30 seconds (-50 per stack).,Exponential,Uncommon,Passive,-
+57,img-dump\items\Prayer_Beads.webp,Prayer Beads,"Grows by gaining experience, storing 20 (+5 per item stack) bonus stats (health, regeneration, and damage). On removal, gain all stored stats.",Linear,Uncommon,Passive,-
+58,img-dump\items\Predatory_Instincts.webp,Predatory Instincts,Gain 5 critical chance. Critical strikes increase attack speed by 12. Maximum cap of 36 (+24 per stack) attack speed.,"Linear
 None",Uncommon,Passive,-
-59,src\data-dump\img-dump\items\Razorwire.webp,Razorwire,"Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius",Linear,Uncommon,Passive,-
-60,src\data-dump\img-dump\items\Red_Whip.webp,Red Whip,Leaving combat boosts your movement speed by 30% (+30% per stack).,Linear,Uncommon,Passive,-
-61,src\data-dump\img-dump\items\Regenerating_Scrap.webp,Regenerating Scrap,"Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.",-,Uncommon,Passive,-
-62,src\data-dump\img-dump\items\Rose_Buckler.webp,Rose Buckler,Increase armor by 30 (+30 per stack) while sprinting.,Linear,Uncommon,Passive,-
-63,src\data-dump\img-dump\items\Runald%27s_Band.webp,Runald's Band,"Hits that deal more than 400% damage also blasts enemies with a runic ice blast, slowing them by 80% for 3s (+3s per stack) and dealing 250% (+250% per stack) TOTAL damage. Recharges every 10 seconds.",Linear,Uncommon,Passive,-
-64,src\data-dump\img-dump\items\Sale_Star.webp,Sale Star,Gain an extra item on the first chest opened per stage. Each additional Sale Star increases the chance of getting more items by 5%.,Linear,Uncommon,Passive,-
-65,src\data-dump\img-dump\items\Shipping_Request_Form.webp,Shipping Request Form,A delivery containing 2 items (79%/20%/1%) will appear in a random location on each stage. (Increases rarity chances of the items per stack).,Special,Uncommon,Passive,-
-66,src\data-dump\img-dump\items\Shuriken.webp,Shuriken,Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.,Linear,Uncommon,Passive,-
-67,src\data-dump\img-dump\items\Squid_Polyp.webp,Squid Polyp,Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.,Linear,Uncommon,Passive,-
-68,src\data-dump\img-dump\items\Ukulele.webp,Ukulele,25% chance to fire chain lightning for 80% TOTAL damage on up to 3 (+2 per stack) targets within 20m (+2m per stack).,Linear,Uncommon,Passive,-
-69,src\data-dump\img-dump\items\Unstable_Transmitter.png,Unstable Transmitter,"Falling below 25% health gives you temporary barrier and a dimensional aura that bleeds and teleports away enemies for 8s. Enemies killed by the aura extend the duration by 1s. At the start of each stage, it regenerates",Linear,Uncommon,Passive,-
-70,src\data-dump\img-dump\items\War_Horn.webp,War Horn,Activating your Equipment gives you +70% attack speed for 8s (+4s per stack).,Linear,Uncommon,Passive,-
-71,src\data-dump\img-dump\items\Wax_Quail.webp,Wax Quail,Jumping while sprinting boosts you forward by 10m (+10m per stack).,Linear,Uncommon,Passive,-
-72,src\data-dump\img-dump\items\Will-o%27-the-wisp.webp,Will-o'-the-wisp,"On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.",Linear,Uncommon,Passive,-
-73,src\data-dump\img-dump\items\57_Leaf_Clover.webp,57 Leaf Clover,All random effects are rolled +1 (+1 per stack) times for a favorable outcome.,Linear,Legendary,Passive,-
-74,src\data-dump\img-dump\items\Aegis.webp,Aegis,Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.,Linear,Legendary,Passive,-
-75,src\data-dump\img-dump\items\Alien_Head.webp,Alien Head,Reduce skill cooldowns by 25% (+25% per stack).,Exponential,Legendary,Passive,-
-76,src\data-dump\img-dump\items\Ben%27s_Raincoat.webp,Ben's Raincoat,Prevents 1 (+1 per stack) debuff and instead grants a temporary barrier for 10% of maximum health. Recharges every 5 seconds.,"Linear
+59,img-dump\items\Razorwire.webp,Razorwire,"Getting hit causes you to explode in a burst of razors, dealing 160 damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius",Linear,Uncommon,Passive,-
+60,img-dump\items\Red_Whip.webp,Red Whip,Leaving combat boosts your movement speed by 30 (+30 per stack).,Linear,Uncommon,Passive,-
+61,img-dump\items\Regenerating_Scrap.webp,Regenerating Scrap,"Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.",-,Uncommon,Passive,-
+62,img-dump\items\Rose_Buckler.webp,Rose Buckler,Increase armor by 30 (+30 per stack) while sprinting.,Linear,Uncommon,Passive,-
+63,img-dump\items\Runald27s_Band.webp,Runald's Band,"Hits that deal more than 400 damage also blasts enemies with a runic ice blast, slowing them by 80 for 3s (+3s per stack) and dealing 250 (+250 per stack) TOTAL damage. Recharges every 10 seconds.",Linear,Uncommon,Passive,-
+64,img-dump\items\Sale_Star.webp,Sale Star,Gain an extra item on the first chest opened per stage. Each additional Sale Star increases the chance of getting more items by 5.,Linear,Uncommon,Passive,-
+65,img-dump\items\Shipping_Request_Form.webp,Shipping Request Form,A delivery containing 2 items (79/20/1) will appear in a random location on each stage. (Increases rarity chances of the items per stack).,Special,Uncommon,Passive,-
+66,img-dump\items\Shuriken.webp,Shuriken,Activating your Primary skill also throws a shuriken that deals 400 (+100 per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.,Linear,Uncommon,Passive,-
+67,img-dump\items\Squid_Polyp.webp,Squid Polyp,Activating an interactable summons a Squid Turret that attacks nearby enemies at 100 (+100 per stack) attack speed. Lasts 30 seconds.,Linear,Uncommon,Passive,-
+68,img-dump\items\Ukulele.webp,Ukulele,25 chance to fire chain lightning for 80 TOTAL damage on up to 3 (+2 per stack) targets within 20m (+2m per stack).,Linear,Uncommon,Passive,-
+69,img-dump\items\Unstable_Transmitter.png,Unstable Transmitter,"Falling below 25 health gives you temporary barrier and a dimensional aura that bleeds and teleports away enemies for 8s. Enemies killed by the aura extend the duration by 1s. At the start of each stage, it regenerates",Linear,Uncommon,Passive,-
+70,img-dump\items\War_Horn.webp,War Horn,Activating your Equipment gives you +70 attack speed for 8s (+4s per stack).,Linear,Uncommon,Passive,-
+71,img-dump\items\Wax_Quail.webp,Wax Quail,Jumping while sprinting boosts you forward by 10m (+10m per stack).,Linear,Uncommon,Passive,-
+72,img-dump\items\Will-o27-the-wisp.webp,Will-o'-the-wisp,"On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350 (+280 per stack) base damage.",Linear,Uncommon,Passive,-
+73,img-dump\items\57_Leaf_Clover.webp,57 Leaf Clover,All random effects are rolled +1 (+1 per stack) times for a favorable outcome.,Linear,Legendary,Passive,-
+74,img-dump\items\Aegis.webp,Aegis,Healing past full grants you a temporary barrier for 50 (+50 per stack) of the amount you healed.,Linear,Legendary,Passive,-
+75,img-dump\items\Alien_Head.webp,Alien Head,Reduce skill cooldowns by 25 (+25 per stack).,Exponential,Legendary,Passive,-
+76,img-dump\items\Ben27s_Raincoat.webp,Ben's Raincoat,Prevents 1 (+1 per stack) debuff and instead grants a temporary barrier for 10 of maximum health. Recharges every 5 seconds.,"Linear
 None",Legendary,Passive,-
-77,src\data-dump\img-dump\items\Bottled_Chaos.webp,Bottled Chaos,Trigger a random equipment effect 1 (+1 per stack) time(s).,Linear,Legendary,Passive,-
-78,src\data-dump\img-dump\items\Brainstalks.webp,Brainstalks,"Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have 0.5s cooldowns.",Linear,Legendary,Passive,-
-79,src\data-dump\img-dump\items\Brilliant_Behemoth.webp,Brilliant Behemoth,All your attacks explode in a 4m (+2.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.,Linear,Legendary,Passive,-
-80,src\data-dump\img-dump\items\Ceremonial_Dagger.webp,Ceremonial Dagger,Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.,Linear,Legendary,Passive,-
-81,src\data-dump\img-dump\items\Defensive_Microbots.webp,Defensive Microbots,Shoot down 1 (+1 per stack) projectiles within 20m every 0.5 seconds. Recharge rate scales with attack speed.,Linear,Legendary,Passive,-
-82,src\data-dump\img-dump\items\Dio%27s_Best_Friend.webp,Dio's Best Friend,"Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",Linear,Legendary,Passive,-
-83,src\data-dump\img-dump\items\Electric_Boomerang.webp,Electric Boomerang,15% chance on hit to fire an electric boomerang that slices through enemies dealing 120% base damage (+120% per stack) and deals an additional 120% base damage per second and stuns all enemies hit. Can strike enemies on the way back.,Linear,Legendary,Passive,-
-84,src\data-dump\img-dump\items\Frost_Relic.webp,Frost Relic,"Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).",Linear,Legendary,Passive,-
-85,src\data-dump\img-dump\items\Growth_Nectar.webp,Growth Nectar,"Grants 4% increase to ALL stats for each buff, up to a maximum of 4 (+4 per stack).",Linear,Legendary,Passive,-
-86,src\data-dump\img-dump\items\H3AD-5T_v2.webp,H3AD-5T v2,"Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.",Reciprocal,Legendary,Passive,-
-87,src\data-dump\img-dump\items\Happiest_Mask.webp,Happiest Mask,Killing enemies has a 7% chance to spawn a ghost of the killed enemy with 1500% damage. Lasts 30s (+30s per stack).,Linear,Legendary,Passive,-
-88,src\data-dump\img-dump\items\Hardlight_Afterburner.png,Hardlight Afterburner,Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.,Linear,Legendary,Passive,-
-89,src\data-dump\img-dump\items\Interstellar_Desk_Plant.webp,Interstellar Desk Plant,"On kill, plant a healing fruit seed that grows into a plant after 5 seconds.The plant heals for 5% of maximum health every 0.5 second to all allies within 10m (+5.0m per stack). Lasts 10 seconds.",Linear,Legendary,Passive,-
-90,src\data-dump\img-dump\items\Item_Scrap%2C_Red.webp,"Item Scrap, Red",Does nothing. Prioritized when used with 3D Printers.,-,Legendary,Passive,-
-91,src\data-dump\img-dump\items\Laser_Scope.webp,Laser Scope,Critical Strikes deal an additional 100% damage (+100% per stack).,Linear,Legendary,Passive,-
-92,src\data-dump\img-dump\items\N%27kuhana%27s_Opinion.webp,N'kuhana's Opinion,"Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.",Linear,Legendary,Passive,-
-93,src\data-dump\img-dump\items\Pocket_I.C.B.M..png,Pocket I.C.B.M.,All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0% (+50% per stack),"Linear
+77,img-dump\items\Bottled_Chaos.webp,Bottled Chaos,Trigger a random equipment effect 1 (+1 per stack) time(s).,Linear,Legendary,Passive,-
+78,img-dump\items\Brainstalks.webp,Brainstalks,"Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have 0.5s cooldowns.",Linear,Legendary,Passive,-
+79,img-dump\items\Brilliant_Behemoth.webp,Brilliant Behemoth,All your attacks explode in a 4m (+2.5m per stack) radius for a bonus 60 TOTAL damage to nearby enemies.,Linear,Legendary,Passive,-
+80,img-dump\items\Ceremonial_Dagger.webp,Ceremonial Dagger,Killing an enemy fires out 3 homing daggers that deal 150 (+150 per stack) base damage.,Linear,Legendary,Passive,-
+81,img-dump\items\Defensive_Microbots.webp,Defensive Microbots,Shoot down 1 (+1 per stack) projectiles within 20m every 0.5 seconds. Recharge rate scales with attack speed.,Linear,Legendary,Passive,-
+82,img-dump\items\Dio27s_Best_Friend.webp,Dio's Best Friend,"Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",Linear,Legendary,Passive,-
+83,img-dump\items\Electric_Boomerang.webp,Electric Boomerang,15 chance on hit to fire an electric boomerang that slices through enemies dealing 120 base damage (+120 per stack) and deals an additional 120 base damage per second and stuns all enemies hit. Can strike enemies on the way back.,Linear,Legendary,Passive,-
+84,img-dump\items\Frost_Relic.webp,Frost Relic,"Killing an enemy surrounds you with an ice storm that deals 1200 damage per second and slows enemies by 80 for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).",Linear,Legendary,Passive,-
+85,img-dump\items\Growth_Nectar.webp,Growth Nectar,"Grants 4 increase to ALL stats for each buff, up to a maximum of 4 (+4 per stack).",Linear,Legendary,Passive,-
+86,img-dump\items\H3AD-5T_v2.webp,H3AD-5T v2,"Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000-10000 base damage that scales up with fall distance. Recharges in 10 (-50 per stack) seconds.",Reciprocal,Legendary,Passive,-
+87,img-dump\items\Happiest_Mask.webp,Happiest Mask,Killing enemies has a 7 chance to spawn a ghost of the killed enemy with 1500 damage. Lasts 30s (+30s per stack).,Linear,Legendary,Passive,-
+88,img-dump\items\Hardlight_Afterburner.png,Hardlight Afterburner,Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33.,Linear,Legendary,Passive,-
+89,img-dump\items\Interstellar_Desk_Plant.webp,Interstellar Desk Plant,"On kill, plant a healing fruit seed that grows into a plant after 5 seconds.The plant heals for 5 of maximum health every 0.5 second to all allies within 10m (+5.0m per stack). Lasts 10 seconds.",Linear,Legendary,Passive,-
+90,img-dump\items\Item_Scrap2C_Red.webp,"Item Scrap, Red",Does nothing. Prioritized when used with 3D Printers.,-,Legendary,Passive,-
+91,img-dump\items\Laser_Scope.webp,Laser Scope,Critical Strikes deal an additional 100 damage (+100 per stack).,Linear,Legendary,Passive,-
+92,img-dump\items\N27kuhana27s_Opinion.webp,N'kuhana's Opinion,"Store 100 (+100 per stack) of healing as Soul Energy. After your Soul Energy reaches 10 of your maximum health, fire a skull that deals 250 of your Soul Energy as damage.",Linear,Legendary,Passive,-
+93,img-dump\items\Pocket_I.C.B.M..png,Pocket I.C.B.M.,All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0 (+50 per stack),"Linear
 None",Legendary,Passive,-
-94,src\data-dump\img-dump\items\Rejuvenation_Rack.webp,Rejuvenation Rack,Heal +100% (+100% per stack) more.,Linear,Legendary,Passive,-
-95,src\data-dump\img-dump\items\Resonance_Disc.webp,Resonance Disc,"Killing 4 enemies in 7 seconds charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).",Linear,Legendary,Passive,-
-96,src\data-dump\img-dump\items\Runic_Lens.png,Runic Lens,"3% chance on hit to call a meteor strike, dealing 2000% base damage. Every 100% attack damage dealt increase the activation chance by 3% (+3% per stack) and damage by 150% (+50% per stack).",Linear,Legendary,Passive,-
-97,src\data-dump\img-dump\items\Sentient_Meat_Hook.webp,Sentient Meat Hook,20% (+20% per stack) chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage.,"Hyperbolic
+94,img-dump\items\Rejuvenation_Rack.webp,Rejuvenation Rack,Heal +100 (+100 per stack) more.,Linear,Legendary,Passive,-
+95,img-dump\items\Resonance_Disc.webp,Resonance Disc,"Killing 4 enemies in 7 seconds charges the Resonance Disc. The disc launches itself toward a target for 300 base damage (+300 per stack), piercing all enemies it doesn't kill, and then explodes for 1000 base damage (+1000 per stack). Returns to the user, striking all enemies along the way for 300 base damage (+300 per stack).",Linear,Legendary,Passive,-
+96,img-dump\items\Runic_Lens.png,Runic Lens,"3 chance on hit to call a meteor strike, dealing 2000 base damage. Every 100 attack damage dealt increase the activation chance by 3 (+3 per stack) and damage by 150 (+50 per stack).",Linear,Legendary,Passive,-
+97,img-dump\items\Sentient_Meat_Hook.webp,Sentient Meat Hook,20 (+20 per stack) chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100 TOTAL damage.,"Hyperbolic
 Linear",Legendary,Passive,-
-98,src\data-dump\img-dump\items\Shattering_Justice.webp,Shattering Justice,"After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.",Linear,Legendary,Passive,-
-99,src\data-dump\img-dump\items\Sonorous_Whispers.webp,Sonorous Whispers,When a large monster is killed it will always drop an item. All elites have a 4% chance of dropping an item (+1% per stack).,Linear,Legendary,Passive,-
-100,src\data-dump\img-dump\items\Soulbound_Catalyst.webp,Soulbound Catalyst,Kills reduce equipment cooldown by 4s (+2s per stack).,Linear,Legendary,Passive,-
-101,src\data-dump\img-dump\items\Spare_Drone_Parts.webp,Spare Drone Parts,"Gain Col. Droneman. Drones gain +50% (+50% per stack) attack speed and cooldown reduction. Drones gain 10% chance to fire a missile on hit, dealing 300% TOTAL damage. Drones gain an automatic chain gun that deals 6x100% damage, bouncing to 2 enemies.",Linear,Legendary,Passive,-
-102,src\data-dump\img-dump\items\Symbiotic_Scorpion.webp,Symbiotic Scorpion,100% chance on hit to reduce armor by 2 (+2 per stack) permanently.,Linear,Legendary,Passive,-
-103,src\data-dump\img-dump\items\Unstable_Tesla_Coil.webp,Unstable Tesla Coil,Fire out lightning that hits 3 (+2 per stack) enemies for 200% base damage every 0.5s. The Tesla Coil switches off every 10 seconds.,Linear,Legendary,Passive,-
-104,src\data-dump\img-dump\items\Wake_of_Vultures.png,Wake of Vultures,Gain the power of any killed elite monster for 8s (+5s per stack).,Linear,Legendary,Passive,-
-105,src\data-dump\img-dump\items\War_Bonds.webp,War Bonds,"During boss events, 5 missiles bombard the area, dealing 2.5% (+2.5% per stack) of boss' Max Health in damage. Before the boss event, gain additional missiles, up to a maximum of 20 (+5 per stack), per 50 gold gained. Gold requirement scales over time.",Linear,Legendary,Passive,-
-106,src\data-dump\img-dump\items\Artifact_Key.webp,Artifact Key,A stone shard with immense power.,-,Boss,Passive,-
-107,src\data-dump\img-dump\items\Charged_Perforator.webp,Charged Perforator,"10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",Linear,Boss,Passive,-
-108,src\data-dump\img-dump\items\Defense_Nucleus.webp,Defense Nucleus,Killing elite monsters spawns an Alpha Construct with bonus 300% damage and 300% health. Limited to 4 (+4 per stack).,Linear,Boss,Passive,-
-109,src\data-dump\img-dump\items\Empathy_Cores.webp,Empathy Cores,"Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",Linear,Boss,Passive,-
-110,src\data-dump\img-dump\items\Genesis_Loop.webp,Genesis Loop,"Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every 30 / (2 +1 per stack) seconds .",Linear,Boss,Passive,-
-111,src\data-dump\img-dump\items\Halcyon_Seed.webp,Halcyon Seed,Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.,Linear,Boss,Passive,-
-112,src\data-dump\img-dump\items\Irradiant_Pearl.webp,Irradiant Pearl,Increases ALL stats by 10% (+10% per stack).,Linear,Boss,Passive,-
-113,src\data-dump\img-dump\items\Item_Scrap%2C_Yellow.webp,"Item Scrap, Yellow",Does nothing. Prioritized when used with 3D Printers.,-,Boss,Passive,-
-114,src\data-dump\img-dump\items\Little_Disciple.webp,Little Disciple,Fire a tracking wisp for 300% (+300% per stack) damage. Fires every 1.6 seconds while sprinting. Fire rate increases with movement speed.,Linear,Boss,Passive,-
-115,src\data-dump\img-dump\items\Mired_Urn.webp,Mired Urn,"While in combat, the nearest 1 (+1 per stack) enemies to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",Linear,Boss,Passive,-
-116,src\data-dump\img-dump\items\Molten_Perforator.webp,Molten Perforator,"10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each.",Linear,Boss,Passive,-
-117,src\data-dump\img-dump\items\Pearl.webp,Pearl,Increases maximum health by 10% (+10% per stack).,Linear,Boss,Passive,-
-118,src\data-dump\img-dump\items\Planula.webp,Planula,Heal from incoming damage for 15 (+15 per stack).,Linear,Boss,Passive,-
-119,src\data-dump\img-dump\items\Queen%27s_Gland.webp,Queen's Gland,"Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",Linear,Boss,Passive,-
-120,src\data-dump\img-dump\items\Shatterspleen.webp,Shatterspleen,"Gain 5% critical chance. Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.","Linear
+98,img-dump\items\Shattering_Justice.webp,Shattering Justice,"After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.",Linear,Legendary,Passive,-
+99,img-dump\items\Sonorous_Whispers.webp,Sonorous Whispers,When a large monster is killed it will always drop an item. All elites have a 4 chance of dropping an item (+1 per stack).,Linear,Legendary,Passive,-
+100,img-dump\items\Soulbound_Catalyst.webp,Soulbound Catalyst,Kills reduce equipment cooldown by 4s (+2s per stack).,Linear,Legendary,Passive,-
+101,img-dump\items\Spare_Drone_Parts.webp,Spare Drone Parts,"Gain Col. Droneman. Drones gain +50 (+50 per stack) attack speed and cooldown reduction. Drones gain 10 chance to fire a missile on hit, dealing 300 TOTAL damage. Drones gain an automatic chain gun that deals 6x100 damage, bouncing to 2 enemies.",Linear,Legendary,Passive,-
+102,img-dump\items\Symbiotic_Scorpion.webp,Symbiotic Scorpion,100 chance on hit to reduce armor by 2 (+2 per stack) permanently.,Linear,Legendary,Passive,-
+103,img-dump\items\Unstable_Tesla_Coil.webp,Unstable Tesla Coil,Fire out lightning that hits 3 (+2 per stack) enemies for 200 base damage every 0.5s. The Tesla Coil switches off every 10 seconds.,Linear,Legendary,Passive,-
+104,img-dump\items\Wake_of_Vultures.png,Wake of Vultures,Gain the power of any killed elite monster for 8s (+5s per stack).,Linear,Legendary,Passive,-
+105,img-dump\items\War_Bonds.webp,War Bonds,"During boss events, 5 missiles bombard the area, dealing 2.5 (+2.5 per stack) of boss' Max Health in damage. Before the boss event, gain additional missiles, up to a maximum of 20 (+5 per stack), per 50 gold gained. Gold requirement scales over time.",Linear,Legendary,Passive,-
+106,img-dump\items\Artifact_Key.webp,Artifact Key,A stone shard with immense power.,-,Boss,Passive,-
+107,img-dump\items\Charged_Perforator.webp,Charged Perforator,"10 chance on hit to down a lightning strike, dealing 500 (+500 per stack) damage.",Linear,Boss,Passive,-
+108,img-dump\items\Defense_Nucleus.webp,Defense Nucleus,Killing elite monsters spawns an Alpha Construct with bonus 300 damage and 300 health. Limited to 4 (+4 per stack).,Linear,Boss,Passive,-
+109,img-dump\items\Empathy_Cores.webp,Empathy Cores,"Every 30 seconds, summon two Solus Probes that gain +100 (+100 per stack) damage per ally on your team.",Linear,Boss,Passive,-
+110,img-dump\items\Genesis_Loop.webp,Genesis Loop,"Falling below 25 health causes you to explode, dealing 6000 base damage. Recharges every 30 / (2 +1 per stack) seconds .",Linear,Boss,Passive,-
+111,img-dump\items\Halcyon_Seed.webp,Halcyon Seed,Summon Aurelionite during the teleporter event. It has 100 (+50 per stack) damage and 100 (+100 per stack) health.,Linear,Boss,Passive,-
+112,img-dump\items\Irradiant_Pearl.webp,Irradiant Pearl,Increases ALL stats by 10 (+10 per stack).,Linear,Boss,Passive,-
+113,img-dump\items\Item_Scrap2C_Yellow.webp,"Item Scrap, Yellow",Does nothing. Prioritized when used with 3D Printers.,-,Boss,Passive,-
+114,img-dump\items\Little_Disciple.webp,Little Disciple,Fire a tracking wisp for 300 (+300 per stack) damage. Fires every 1.6 seconds while sprinting. Fire rate increases with movement speed.,Linear,Boss,Passive,-
+115,img-dump\items\Mired_Urn.webp,Mired Urn,"While in combat, the nearest 1 (+1 per stack) enemies to you within 13m will be 'tethered' to you, dealing 100 damage per second, applying tar, and healing you for 100 of the damage dealt.",Linear,Boss,Passive,-
+116,img-dump\items\Molten_Perforator.webp,Molten Perforator,"10 chance on hit to call forth 3 magma balls from an enemy, dealing 300 (+300 per stack) damage each.",Linear,Boss,Passive,-
+117,img-dump\items\Pearl.webp,Pearl,Increases maximum health by 10 (+10 per stack).,Linear,Boss,Passive,-
+118,img-dump\items\Planula.webp,Planula,Heal from incoming damage for 15 (+15 per stack).,Linear,Boss,Passive,-
+119,img-dump\items\Queen27s_Gland.webp,Queen's Gland,"Every 30 seconds, summon a Beetle Guard with bonus 300 damage and 100 health. Can have up to 1 (+1 per stack) Guards at a time.",Linear,Boss,Passive,-
+120,img-dump\items\Shatterspleen.webp,Shatterspleen,"Gain 5 critical chance. Critical Strikes bleed enemies for 240 base damage. Bleeding enemies explode on death for 400 (+400 per stack) damage, plus an additional 15 (+15 per stack) of their maximum health.","Linear
 None",Boss,Passive,-
-121,src\data-dump\img-dump\items\Titanic_Knurl.webp,Titanic Knurl,Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).,Linear,Boss,Passive,-
-122,src\data-dump\img-dump\items\Beads_of_Fealty.webp,Beads of Fealty,Seems to do nothing... but...,-,Lunar,Passive,-
-123,src\data-dump\img-dump\items\Brittle_Crown.webp,Brittle Crown,30% chance on hit to gain 2 (+2 per stack) gold. Scales over time.Lose gold on taking damage equal to 100% (+100% per stack) of the maximum health percentage you lost.,Linear,Lunar,Passive,-
-124,src\data-dump\img-dump\items\Corpsebloom.webp,Corpsebloom,Heal +100% (+100% per stack) more. All healing is applied over time. Can heal for a maximum of 10% (-50% per stack) of your health per second.,"Linear
+121,img-dump\items\Titanic_Knurl.webp,Titanic Knurl,Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).,Linear,Boss,Passive,-
+122,img-dump\items\Beads_of_Fealty.webp,Beads of Fealty,Seems to do nothing... but...,-,Lunar,Passive,-
+123,img-dump\items\Brittle_Crown.webp,Brittle Crown,30 chance on hit to gain 2 (+2 per stack) gold. Scales over time.Lose gold on taking damage equal to 100 (+100 per stack) of the maximum health percentage you lost.,Linear,Lunar,Passive,-
+124,img-dump\items\Corpsebloom.webp,Corpsebloom,Heal +100 (+100 per stack) more. All healing is applied over time. Can heal for a maximum of 10 (-50 per stack) of your health per second.,"Linear
 Reciprocal",Lunar,Passive,-
-125,src\data-dump\img-dump\items\Defiant_Gouge.webp,Defiant Gouge,Using a Shrine summons enemies (stronger per stack) nearby. Scales over time.,Linear,Lunar,Passive,-
-126,src\data-dump\img-dump\items\Egocentrism.webp,Egocentrism,"Every 3 (-50% per stack) seconds, gain an orbiting bomb that detonates on impact for 360% damage, up to a maximum of 3 bombs (+1 per stack). Every 60 seconds, a random item is converted into this item.","Reciprocal
+125,img-dump\items\Defiant_Gouge.webp,Defiant Gouge,Using a Shrine summons enemies (stronger per stack) nearby. Scales over time.,Linear,Lunar,Passive,-
+126,img-dump\items\Egocentrism.webp,Egocentrism,"Every 3 (-50 per stack) seconds, gain an orbiting bomb that detonates on impact for 360 damage, up to a maximum of 3 bombs (+1 per stack). Every 60 seconds, a random item is converted into this item.","Reciprocal
 Linear",Lunar,Passive,-
-127,src\data-dump\img-dump\items\Essence_of_Heresy.webp,Essence of Heresy,"Replace your Special Skill with Ruin.Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.",Linear,Lunar,Passive,-
-128,src\data-dump\img-dump\items\Eulogy_Zero.webp,Eulogy Zero,Items have a 5% (+5% per stack) chance to become a Lunar item instead.,Linear,Lunar,Passive,-
-129,src\data-dump\img-dump\items\Focused_Convergence.webp,Focused Convergence,"Teleporters charge 30% (+30% per stack) faster, but the size of the Teleporter zone is 50% (-50% per stack) smaller.","Linear
+127,img-dump\items\Essence_of_Heresy.webp,Essence of Heresy,"Replace your Special Skill with Ruin.Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300 damage plus 120 damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.",Linear,Lunar,Passive,-
+128,img-dump\items\Eulogy_Zero.webp,Eulogy Zero,Items have a 5 (+5 per stack) chance to become a Lunar item instead.,Linear,Lunar,Passive,-
+129,img-dump\items\Focused_Convergence.webp,Focused Convergence,"Teleporters charge 30 (+30 per stack) faster, but the size of the Teleporter zone is 50 (-50 per stack) smaller.","Linear
 Reciprocal",Lunar,Passive,-
-130,src\data-dump\img-dump\items\Gesture_of_the_Drowned.webp,Gesture of the Drowned,Reduce Equipment cooldown by 50% (+15% per stack). Forces your Equipment to activate whenever it is off cooldown.,Exponential,Lunar,Passive,-
-131,src\data-dump\img-dump\items\Hooks_of_Heresy.webp,Hooks of Heresy,"Replace your Secondary Skill with Slicing Maelstrom.Charge up a projectile that deals 875% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.",Linear,Lunar,Passive,-
-132,src\data-dump\img-dump\items\Light_Flux_Pauldron.webp,Light Flux Pauldron,Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).,"Exponential
+130,img-dump\items\Gesture_of_the_Drowned.webp,Gesture of the Drowned,Reduce Equipment cooldown by 50 (+15 per stack). Forces your Equipment to activate whenever it is off cooldown.,Exponential,Lunar,Passive,-
+131,img-dump\items\Hooks_of_Heresy.webp,Hooks of Heresy,"Replace your Secondary Skill with Slicing Maelstrom.Charge up a projectile that deals 875 damage per second to nearby enemies, exploding after 3 seconds to deal 700 damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.",Linear,Lunar,Passive,-
+132,img-dump\items\Light_Flux_Pauldron.webp,Light Flux Pauldron,Decrease skill cooldowns by 50 (+50 per stack). Decrease attack speed by 50 (+50 per stack).,"Exponential
 Reciprocal",Lunar,Passive,-
-133,src\data-dump\img-dump\items\Longstanding_Solitude.webp,Longstanding Solitude,On level up gain a free unlock for the next purchase (+1 free unlock per item stack) but all gold is converted to experience. Anything that costs gold is increased by 50% (+50% per item stack),Linear,Lunar,Passive,-
-134,src\data-dump\img-dump\items\Mercurial_Rachis.webp,Mercurial Rachis,"Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",Exponential,Lunar,Passive,-
-135,src\data-dump\img-dump\items\Purity.webp,Purity,All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.,Linear,Lunar,Passive,-
-136,src\data-dump\img-dump\items\Shaped_Glass.webp,Shaped Glass,Increase base damage by 100% (+100% per stack). Reduce maximum health by 50% (+50% per stack).,Exponential,Lunar,Passive,-
-137,src\data-dump\img-dump\items\Stone_Flux_Pauldron.webp,Stone Flux Pauldron,Increase max health by 100% (+100% per stack). Reduce movement speed by 50% (+50% per stack).,"Linear
+133,img-dump\items\Longstanding_Solitude.webp,Longstanding Solitude,On level up gain a free unlock for the next purchase (+1 free unlock per item stack) but all gold is converted to experience. Anything that costs gold is increased by 50 (+50 per item stack),Linear,Lunar,Passive,-
+134,img-dump\items\Mercurial_Rachis.webp,Mercurial Rachis,"Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50 per stack), causing them to deal +50 damage.",Exponential,Lunar,Passive,-
+135,img-dump\items\Purity.webp,Purity,All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.,Linear,Lunar,Passive,-
+136,img-dump\items\Shaped_Glass.webp,Shaped Glass,Increase base damage by 100 (+100 per stack). Reduce maximum health by 50 (+50 per stack).,Exponential,Lunar,Passive,-
+137,img-dump\items\Stone_Flux_Pauldron.webp,Stone Flux Pauldron,Increase max health by 100 (+100 per stack). Reduce movement speed by 50 (+50 per stack).,"Linear
 Reciprocal",Lunar,Passive,-
-138,src\data-dump\img-dump\items\Strides_of_Heresy.webp,Strides of Heresy,"Replace your Utility Skill with Shadowfade.Fade away, becoming intangible and gaining +30% movement speed. Heal for 18.2% (+18.2% per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.",Linear,Lunar,Passive,-
-139,src\data-dump\img-dump\items\Transcendence.webp,Transcendence,Convert all but 1 health into regenerating shields. Gain 50% (+25% per stack) maximum health.,Linear,Lunar,Passive,-
-140,src\data-dump\img-dump\items\Visions_of_Heresy.webp,Visions of Heresy,"Replace your Primary Skill with Hungering Gaze.Fire a flurry of tracking shards that detonate after a delay, dealing 120% base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).",Linear,Lunar,Passive,-
-141,src\data-dump\img-dump\items\Benthic_Bloom.webp,Benthic Bloom,Upgrades 3 (+3 per stack) random items to items of the next higher rarity at the start of each stage. Corrupts all 57 Leaf Clovers.,Linear,Void,Passive,-
-142,src\data-dump\img-dump\items\Encrusted_Key.webp,Encrusted Key,A hidden cache containing an item (60%/30%/10%) will appear in a random location on each stage. Opening the cache consumes this item. Corrupts all Rusted Keys.,-,Void,Passive,-
-143,src\data-dump\img-dump\items\Lost_Seer%27s_Lenses.webp,Lost Seer's Lenses,Your attacks have a 0.5% (+0.5% per stack) chance to instantly kill a non-Boss enemy. Corrupts all Lens-Maker's Glasses.,Linear,Void,Passive,-
-144,src\data-dump\img-dump\items\Lysate_Cell.webp,Lysate Cell,Add +1 (+1 per stack) charge of your Special skill. Reduces Special skill cooldown by 33%. Corrupts all Fuel Cells.,Linear,Void,Passive,-
-145,src\data-dump\img-dump\items\Needletick.webp,Needletick,10% (+10% per stack) chance to collapse an enemy for 400% base damage. Corrupts all Tri-Tip Daggers.,Linear,Void,Passive,-
-146,src\data-dump\img-dump\items\Newly_Hatched_Zoea.webp,Newly Hatched Zoea,"Every 60 (-50% per stack) seconds, gain a random Void ally. Can have up to 1 (+1 per stack) allies at a time. Corrupts all yellow items.","Reciprocal
+138,img-dump\items\Strides_of_Heresy.webp,Strides of Heresy,"Replace your Utility Skill with Shadowfade.Fade away, becoming intangible and gaining +30 movement speed. Heal for 18.2 (+18.2 per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.",Linear,Lunar,Passive,-
+139,img-dump\items\Transcendence.webp,Transcendence,Convert all but 1 health into regenerating shields. Gain 50 (+25 per stack) maximum health.,Linear,Lunar,Passive,-
+140,img-dump\items\Visions_of_Heresy.webp,Visions of Heresy,"Replace your Primary Skill with Hungering Gaze.Fire a flurry of tracking shards that detonate after a delay, dealing 120 base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).",Linear,Lunar,Passive,-
+141,img-dump\items\Benthic_Bloom.webp,Benthic Bloom,Upgrades 3 (+3 per stack) random items to items of the next higher rarity at the start of each stage. Corrupts all 57 Leaf Clovers.,Linear,Void,Passive,-
+142,img-dump\items\Encrusted_Key.webp,Encrusted Key,A hidden cache containing an item (60/30/10) will appear in a random location on each stage. Opening the cache consumes this item. Corrupts all Rusted Keys.,-,Void,Passive,-
+143,img-dump\items\Lost_Seer27s_Lenses.webp,Lost Seer's Lenses,Your attacks have a 0.5 (+0.5 per stack) chance to instantly kill a non-Boss enemy. Corrupts all Lens-Maker's Glasses.,Linear,Void,Passive,-
+144,img-dump\items\Lysate_Cell.webp,Lysate Cell,Add +1 (+1 per stack) charge of your Special skill. Reduces Special skill cooldown by 33. Corrupts all Fuel Cells.,Linear,Void,Passive,-
+145,img-dump\items\Needletick.webp,Needletick,10 (+10 per stack) chance to collapse an enemy for 400 base damage. Corrupts all Tri-Tip Daggers.,Linear,Void,Passive,-
+146,img-dump\items\Newly_Hatched_Zoea.webp,Newly Hatched Zoea,"Every 60 (-50 per stack) seconds, gain a random Void ally. Can have up to 1 (+1 per stack) allies at a time. Corrupts all yellow items.","Reciprocal
 Linear",Void,Passive,-
-147,src\data-dump\img-dump\items\Plasma_Shrimp.webp,Plasma Shrimp,"Gain a shield equal to 10% of your maximum health. While you have a shield, hitting an enemy fires a missile that deals 40% (+40% per stack) TOTAL damage. Corrupts all AtG Missile Mk. 1s.",Linear,Void,Passive,-
-148,src\data-dump\img-dump\items\Pluripotent_Larva.webp,Pluripotent Larva,"Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability, and all of your items that can be corrupted will be. Corrupts all Dio's Best Friends.",Linear,Void,Passive,-
-149,src\data-dump\img-dump\items\Polylute.webp,Polylute,25% chance to fire lightning for 60% TOTAL damage up to 3 (+3 per stack) times. Corrupts all Ukuleles.,Linear,Void,Passive,-
-150,src\data-dump\img-dump\items\Safer_Spaces.webp,Safer Spaces,Blocks incoming damage once. Recharges after 15 seconds (-10% per stack) Corrupts all Tougher Times.,Exponential,Void,Passive,-
-151,src\data-dump\img-dump\items\Singularity_Band.webp,Singularity Band,"Hits that deal more than 400% damage also fire a black hole that draws enemies within 15m into its center. Lasts 5 seconds before collapsing, dealing 100% (+100% per stack) TOTAL damage. Recharges every 20 seconds. Corrupts all Runald's and Kjaro's Bands.",Linear,Void,Passive,-
-152,src\data-dump\img-dump\items\Tentabauble.webp,Tentabauble,5% (+5% per stack) chance on hit to root enemies for 1s (+1s per stack). Corrupts all Chronobaubles.,"Hyperbolic
+147,img-dump\items\Plasma_Shrimp.webp,Plasma Shrimp,"Gain a shield equal to 10 of your maximum health. While you have a shield, hitting an enemy fires a missile that deals 40 (+40 per stack) TOTAL damage. Corrupts all AtG Missile Mk. 1s.",Linear,Void,Passive,-
+148,img-dump\items\Pluripotent_Larva.webp,Pluripotent Larva,"Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability, and all of your items that can be corrupted will be. Corrupts all Dio's Best Friends.",Linear,Void,Passive,-
+149,img-dump\items\Polylute.webp,Polylute,25 chance to fire lightning for 60 TOTAL damage up to 3 (+3 per stack) times. Corrupts all Ukuleles.,Linear,Void,Passive,-
+150,img-dump\items\Safer_Spaces.webp,Safer Spaces,Blocks incoming damage once. Recharges after 15 seconds (-10 per stack) Corrupts all Tougher Times.,Exponential,Void,Passive,-
+151,img-dump\items\Singularity_Band.webp,Singularity Band,"Hits that deal more than 400 damage also fire a black hole that draws enemies within 15m into its center. Lasts 5 seconds before collapsing, dealing 100 (+100 per stack) TOTAL damage. Recharges every 20 seconds. Corrupts all Runald's and Kjaro's Bands.",Linear,Void,Passive,-
+152,img-dump\items\Tentabauble.webp,Tentabauble,5 (+5 per stack) chance on hit to root enemies for 1s (+1s per stack). Corrupts all Chronobaubles.,"Hyperbolic
 Linear",Void,Passive,-
-153,src\data-dump\img-dump\items\Voidsent_Flame.webp,Voidsent Flame,"Upon hitting an enemy at full health, spawn a lava pillar in a 12m (+2.4m per stack) radius for 260% (+156% per stack) base damage. Corrupts all Will-o'-the-wisps.",Linear,Void,Passive,-
-154,src\data-dump\img-dump\items\Weeping_Fungus.webp,Weeping Fungus,Heals for 2% (+2% per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.,Linear,Void,Passive,-
-155,src\data-dump\img-dump\items\Blast_Shower.webp,Blast Shower,"Cleanse all negative effects. Includes debuffs, damage over time, and nearby projectiles.",-,Equipment,Active,20s
-156,src\data-dump\img-dump\items\Disposable_Missile_Launcher.webp,Disposable Missile Launcher,Fire a swarm of 12 missiles that deal 12x300% damage.,-,Equipment,Active,45s
-157,src\data-dump\img-dump\items\Eccentric_Vase.webp,Eccentric Vase,Create a quantum tunnel of up to 1000m in length. Lasts 30 seconds.,-,Equipment,Active,45s
-158,src\data-dump\img-dump\items\Executive_Card.png,Executive Card,"Whenever you make a gold purchase, get 10% of the spent gold back. If the purchase is a multishop terminal, the other terminals will remain open.",-,Equipment,Active,0.1s
-159,src\data-dump\img-dump\items\Foreign_Fruit.webp,Foreign Fruit,Instantly heal for 50% of your maximum health.,-,Equipment,Active,45s
-160,src\data-dump\img-dump\items\Forgive_Me_Please.webp,Forgive Me Please,Throw a cursed doll out that triggers any On-Kill effects you have every 1 second for 8 seconds.,-,Equipment,Active,45s
-161,src\data-dump\img-dump\items\Fuel_Array.webp,Fuel Array,Looks like it could power something. EXTREMELY unstable...,-,Equipment,Active,-
-162,src\data-dump\img-dump\items\Gnarled_Woodsprite.webp,Gnarled Woodsprite,Gain a Woodsprite follower that heals for 1.5% of your maximum health/second. Can be sent to an ally to heal them for 10% of their maximum health.,-,Equipment,Active,15s
-163,src\data-dump\img-dump\items\Goobo_Jr..webp,Goobo Jr.,Spawn a gummy clone that has 300% damage and 300% health. Expires in 30 seconds.,-,Equipment,Active,100s
-164,src\data-dump\img-dump\items\Gorag%27s_Opus.webp,Gorag's Opus,All allies enter a frenzy for 7 seconds. Increases movement speed by 50% and attack speed by 100%.,-,Equipment,Active,45s
-165,src\data-dump\img-dump\items\Jade_Elephant.webp,Jade Elephant,Gain 500 armor for 5 seconds.,-,Equipment,Active,45s
-166,src\data-dump\img-dump\items\Milky_Chrysalis.webp,Milky Chrysalis,Sprout wings and fly for 15 seconds. Gain +20% movement speed for the duration.,-,Equipment,Active,60s
-167,src\data-dump\img-dump\items\Molotov_%286-Pack%29.webp,Molotov (6-Pack),Throw 6 molotov cocktails that ignites enemies for 500% base damage. Each molotov leaves a burning area for 200% damage per second.,-,Equipment,Active,45s
-168,src\data-dump\img-dump\items\Ocular_HUD.webp,Ocular HUD,Gain +100% Critical Strike Chance for 8 seconds.,-,Equipment,Active,60s
-169,src\data-dump\img-dump\items\Preon_Accumulator.webp,Preon Accumulator,"Fires preon tendrils, zapping enemies within 35m for up to 600% damage/second. On contact, detonate in an enormous 20m explosion for 4000% damage.",-,Equipment,Active,140s
-170,src\data-dump\img-dump\items\Primordial_Cube.webp,Primordial Cube,Fire a black hole that draws enemies within 30m into its center. Lasts 10 seconds,-,Equipment,Active,60s
-171,src\data-dump\img-dump\items\Radar_Scanner.webp,Radar Scanner,Reveal all interactables within 500m for 10 seconds.,-,Equipment,Active,45s
-172,src\data-dump\img-dump\items\Recycler.webp,Recycler,Transform an Item or Equipment into a different one. Can only be converted into the same tier one time.,-,Equipment,Active,45s
-173,src\data-dump\img-dump\items\Remote_Caffeinator.webp,Remote Caffeinator,"Request an Eclipse Zero Vending Machine from the UES Safe Travels. Delivery guaranteed in 5 seconds, dealing 2000% damage. Heal up to 3 targets for 25% of their maximum health.",-,Equipment,Active,60s
-174,src\data-dump\img-dump\items\Royal_Capacitor.webp,Royal Capacitor,"Call down a lightning strike on a targeted monster, dealing 3000% damage and stunning nearby monsters.",-,Equipment,Active,20s
-175,src\data-dump\img-dump\items\Sawmerang.webp,Sawmerang,Throw three large saw blades that slice through enemies for 3x400% damage. Also deals an additional 3x100% damage per second while bleeding enemies. Can strike enemies again on the way back.,-,Equipment,Active,45s
-176,src\data-dump\img-dump\items\Seed_of_Life.webp,Seed of Life,Revives the user when killed or dead allies on activation. Consumed on use.,-,Equipment,Active,60s
-177,src\data-dump\img-dump\items\Seed_of_Life_%28Consumed%29.webp,Seed of Life (Consumed),On activation places a sprout that drops healing orbs.,-,Equipment,Active,15s
-178,src\data-dump\img-dump\items\Super_Massive_Leech.webp,Super Massive Leech,Heal for 20% of the damage you deal. Lasts 8 seconds.,-,Equipment,Active,60s
-179,src\data-dump\img-dump\items\The_Back-up.webp,The Back-up,Call 4 Strike Drones to fight for you. Lasts 25 seconds.,-,Equipment,Active,100s
-180,src\data-dump\img-dump\items\The_Crowdfunder.png,The Crowdfunder,Fires a continuous barrage that deals 100% damage per bullet. Costs $1 per bullet. Cost increases over time.,-,Equipment,Active,-
-181,src\data-dump\img-dump\items\Trophy_Hunter%27s_Tricorn.webp,Trophy Hunter's Tricorn,"Execute any enemy capable of spawning a unique reward, and it will drop that item. Equipment is consumed on use.",-,Equipment,Active,0s
-182,src\data-dump\img-dump\items\Trophy_Hunter%27s_Tricorn_%28Consumed%29.webp,Trophy Hunter's Tricorn (Consumed),"Looks kinda cool, but that's about it.",-,Equipment,Active,60s
-183,src\data-dump\img-dump\items\Volcanic_Egg.webp,Volcanic Egg,Turn into a draconic fireball for 5 seconds. Deal 500% damage on impact. Detonates at the end for 800% damage.,-,Equipment,Active,30s
-184,src\data-dump\img-dump\items\Effigy_of_Grief.webp,Effigy of Grief,ALL characters within are slowed by 50% and have their armor reduced by 20. Can place up to 5.,-,Lunar Equipment,Active,15s
-185,src\data-dump\img-dump\items\Glowing_Meteorite.webp,Glowing Meteorite,"Rain meteors from the sky, damaging ALL characters for 600% damage per blast. Lasts 20 seconds.",-,Lunar Equipment,Active,140s
-186,src\data-dump\img-dump\items\Helfire_Tincture.webp,Helfire Tincture,"Ignite ALL characters within 15m for 12s. Deal 5% of your maximum health/second as burning as damage. The burn is 0.5x stronger on yourself, 0.25x stronger on allies, and 24x stronger on enemies.",-,Lunar Equipment,Active,45s
-187,src\data-dump\img-dump\items\Spinel_Tonic.webp,Spinel Tonic,"Drink the Tonic, gaining a boost for 20 seconds. Increases damage by +100%. Increases attack speed by +70%. Increases armor by +20. Increases maximum health by +50%. Increases passive health regeneration by +300%. Increases movespeed by +30%.When the Tonic wears off, you have a 20% chance to gain a Tonic Affliction, reducing all of your stats by -5% (-5% per stack).",-,Lunar Equipment,Active,60s
+153,img-dump\items\Voidsent_Flame.webp,Voidsent Flame,"Upon hitting an enemy at full health, spawn a lava pillar in a 12m (+2.4m per stack) radius for 260 (+156 per stack) base damage. Corrupts all Will-o'-the-wisps.",Linear,Void,Passive,-
+154,img-dump\items\Weeping_Fungus.webp,Weeping Fungus,Heals for 2 (+2 per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.,Linear,Void,Passive,-
+155,img-dump\items\Blast_Shower.webp,Blast Shower,"Cleanse all negative effects. Includes debuffs, damage over time, and nearby projectiles.",-,Equipment,Active,20s
+156,img-dump\items\Disposable_Missile_Launcher.webp,Disposable Missile Launcher,Fire a swarm of 12 missiles that deal 12x300 damage.,-,Equipment,Active,45s
+157,img-dump\items\Eccentric_Vase.webp,Eccentric Vase,Create a quantum tunnel of up to 1000m in length. Lasts 30 seconds.,-,Equipment,Active,45s
+158,img-dump\items\Executive_Card.png,Executive Card,"Whenever you make a gold purchase, get 10 of the spent gold back. If the purchase is a multishop terminal, the other terminals will remain open.",-,Equipment,Active,0.1s
+159,img-dump\items\Foreign_Fruit.webp,Foreign Fruit,Instantly heal for 50 of your maximum health.,-,Equipment,Active,45s
+160,img-dump\items\Forgive_Me_Please.webp,Forgive Me Please,Throw a cursed doll out that triggers any On-Kill effects you have every 1 second for 8 seconds.,-,Equipment,Active,45s
+161,img-dump\items\Fuel_Array.webp,Fuel Array,Looks like it could power something. EXTREMELY unstable...,-,Equipment,Active,-
+162,img-dump\items\Gnarled_Woodsprite.webp,Gnarled Woodsprite,Gain a Woodsprite follower that heals for 1.5 of your maximum health/second. Can be sent to an ally to heal them for 10 of their maximum health.,-,Equipment,Active,15s
+163,img-dump\items\Goobo_Jr..webp,Goobo Jr.,Spawn a gummy clone that has 300 damage and 300 health. Expires in 30 seconds.,-,Equipment,Active,100s
+164,img-dump\items\Gorag27s_Opus.webp,Gorag's Opus,All allies enter a frenzy for 7 seconds. Increases movement speed by 50 and attack speed by 100.,-,Equipment,Active,45s
+165,img-dump\items\Jade_Elephant.webp,Jade Elephant,Gain 500 armor for 5 seconds.,-,Equipment,Active,45s
+166,img-dump\items\Milky_Chrysalis.webp,Milky Chrysalis,Sprout wings and fly for 15 seconds. Gain +20 movement speed for the duration.,-,Equipment,Active,60s
+167,img-dump\items\Molotov_286-Pack29.webp,Molotov (6-Pack),Throw 6 molotov cocktails that ignites enemies for 500 base damage. Each molotov leaves a burning area for 200 damage per second.,-,Equipment,Active,45s
+168,img-dump\items\Ocular_HUD.webp,Ocular HUD,Gain +100 Critical Strike Chance for 8 seconds.,-,Equipment,Active,60s
+169,img-dump\items\Preon_Accumulator.webp,Preon Accumulator,"Fires preon tendrils, zapping enemies within 35m for up to 600 damage/second. On contact, detonate in an enormous 20m explosion for 4000 damage.",-,Equipment,Active,140s
+170,img-dump\items\Primordial_Cube.webp,Primordial Cube,Fire a black hole that draws enemies within 30m into its center. Lasts 10 seconds,-,Equipment,Active,60s
+171,img-dump\items\Radar_Scanner.webp,Radar Scanner,Reveal all interactables within 500m for 10 seconds.,-,Equipment,Active,45s
+172,img-dump\items\Recycler.webp,Recycler,Transform an Item or Equipment into a different one. Can only be converted into the same tier one time.,-,Equipment,Active,45s
+173,img-dump\items\Remote_Caffeinator.webp,Remote Caffeinator,"Request an Eclipse Zero Vending Machine from the UES Safe Travels. Delivery guaranteed in 5 seconds, dealing 2000 damage. Heal up to 3 targets for 25 of their maximum health.",-,Equipment,Active,60s
+174,img-dump\items\Royal_Capacitor.webp,Royal Capacitor,"Call down a lightning strike on a targeted monster, dealing 3000 damage and stunning nearby monsters.",-,Equipment,Active,20s
+175,img-dump\items\Sawmerang.webp,Sawmerang,Throw three large saw blades that slice through enemies for 3x400 damage. Also deals an additional 3x100 damage per second while bleeding enemies. Can strike enemies again on the way back.,-,Equipment,Active,45s
+176,img-dump\items\Seed_of_Life.webp,Seed of Life,Revives the user when killed or dead allies on activation. Consumed on use.,-,Equipment,Active,60s
+177,img-dump\items\Seed_of_Life_28Consumed29.webp,Seed of Life (Consumed),On activation places a sprout that drops healing orbs.,-,Equipment,Active,15s
+178,img-dump\items\Super_Massive_Leech.webp,Super Massive Leech,Heal for 20 of the damage you deal. Lasts 8 seconds.,-,Equipment,Active,60s
+179,img-dump\items\The_Back-up.webp,The Back-up,Call 4 Strike Drones to fight for you. Lasts 25 seconds.,-,Equipment,Active,100s
+180,img-dump\items\The_Crowdfunder.png,The Crowdfunder,Fires a continuous barrage that deals 100 damage per bullet. Costs $1 per bullet. Cost increases over time.,-,Equipment,Active,-
+181,img-dump\items\Trophy_Hunter27s_Tricorn.webp,Trophy Hunter's Tricorn,"Execute any enemy capable of spawning a unique reward, and it will drop that item. Equipment is consumed on use.",-,Equipment,Active,0s
+182,img-dump\items\Trophy_Hunter27s_Tricorn_28Consumed29.webp,Trophy Hunter's Tricorn (Consumed),"Looks kinda cool, but that's about it.",-,Equipment,Active,60s
+183,img-dump\items\Volcanic_Egg.webp,Volcanic Egg,Turn into a draconic fireball for 5 seconds. Deal 500 damage on impact. Detonates at the end for 800 damage.,-,Equipment,Active,30s
+184,img-dump\items\Effigy_of_Grief.webp,Effigy of Grief,ALL characters within are slowed by 50 and have their armor reduced by 20. Can place up to 5.,-,Lunar Equipment,Active,15s
+185,img-dump\items\Glowing_Meteorite.webp,Glowing Meteorite,"Rain meteors from the sky, damaging ALL characters for 600 damage per blast. Lasts 20 seconds.",-,Lunar Equipment,Active,140s
+186,img-dump\items\Helfire_Tincture.webp,Helfire Tincture,"Ignite ALL characters within 15m for 12s. Deal 5 of your maximum health/second as burning as damage. The burn is 0.5x stronger on yourself, 0.25x stronger on allies, and 24x stronger on enemies.",-,Lunar Equipment,Active,45s
+187,img-dump\items\Spinel_Tonic.webp,Spinel Tonic,"Drink the Tonic, gaining a boost for 20 seconds. Increases damage by +100. Increases attack speed by +70. Increases armor by +20. Increases maximum health by +50. Increases passive health regeneration by +300. Increases movespeed by +30.When the Tonic wears off, you have a 20 chance to gain a Tonic Affliction, reducing all of your stats by -5 (-5 per stack).",-,Lunar Equipment,Active,60s

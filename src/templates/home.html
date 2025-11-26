@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome to the Database</h1>
+
+    <h2>Survivors</h2>
+    <div class="grid">
+        {% for survivor in survivors|slice:":5" %} {# Show first 5 survivors #}
+            <div class="card">
+                <a href="{% url 'survivor-detail' survivor.pk %}">
+                    <img src="{% static survivor.SurvivorImg %}" alt="{{ survivor.SurvivorName }}">
+                    <p>{{ survivor.SurvivorName }}</p>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+    <p><a href="{% url 'survivor-list' %}">View all survivors...</a></p>
+    <hr>
+
+    <h2>Monsters</h2>
+    <div class="grid">
+        {% for monster in monsters|slice:":5" %} {# Show first 5 monsters #}
+            <div class="card">
+                <a href="{% url 'monster-detail' monster.pk %}">
+                    <img src="{% static monster.MonsterImg %}" alt="{{ monster.MonsterName }}">
+                    <p>{{ monster.MonsterName }}</p>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+    <p><a href="{% url 'monster-list' %}">View all monsters...</a></p>
+    <hr>
+
+    <h2>Items</h2>
+    <div class="grid">
+        {% for item in items|slice:":5" %} {# Show first 5 items #}
+            <div class="card">
+                <a href="{% url 'item-detail' item.pk %}">
+                    <img src="{% static item.ItemImg %}" alt="{{ item.ItemName }}">
+                    <p>{{ item.ItemName }}</p>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+    <p><a href="{% url 'item-list' %}">View all items...</a></p>
+
+{% endblock %}
