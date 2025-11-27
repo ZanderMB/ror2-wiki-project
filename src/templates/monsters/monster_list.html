@@ -1,20 +1,106 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}All Monsters{% endblock %}
-
 {% block content %}
-    <h1>All Monsters</h1>
-    <div class="grid">
-        {% for monster in monsters %}
-            <div class="card">
-                <a href="{% url 'monster-detail' monster.pk %}">
+
+<!-- Paste the entire CSS block from above right here -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+    body { 
+        background-color: #1A1625; 
+        color: #e0e0e0; 
+        border: 4px solid #1A1625; 
+        box-sizing: border-box; 
+        min-height: 100vh; 
+    }
+    .display-page-container { 
+        display: grid; 
+        grid-template-columns: 320px 1fr; 
+        gap: 20px; 
+        padding: 20px; 
+    }
+    .sidebar { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px; 
+    }
+    .sidebar-box {  
+        padding: 20px; 
+        background-color: #3D3356; 
+    }
+    .logo-box, .title-box { 
+        text-align: center; 
+    }
+    .logo-image { 
+        max-width: 150px; 
+        height: auto; 
+    }
+    .title-box h1 { 
+        font-family: 'Do Hyeon', sans-serif; 
+        font-size: 3.5rem; color: #fff; 
+        margin: 0; 
+        line-height: 1; 
+    }
+    .description-box p { 
+        font-size: 1.1rem; 
+        line-height: 1.6; 
+        margin: 0; 
+    }
+    .icon-grid-container { 
+        padding: 20px; 
+        background-color: #3D3356;
+    }
+    .icon-grid {
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); 
+        gap: 15px; 
+    }
+    .icon-card { 
+        position: relative;  
+        aspect-ratio: 1 / 1;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        overflow: hidden; 
+        transition: transform 0.2s ease, border-color 0.2s ease; 
+    }
+    .icon-card:hover { 
+        transform: scale(1.1); 
+        border-color: #fff; 
+    }
+    .icon-card img { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: contain; 
+    }
+    @media (max-width: 800px) { .display-page-container { grid-template-columns: 1fr; } }
+</style>
+
+<div class="display-page-container">
+    <!-- Left Sidebar Column -->
+    <aside class="sidebar">
+        <div class="sidebar-box logo-box">
+            <img src="{% static 'img-dump/ror2-logo.svg' %}" alt="ROR2 Logo" class="logo-image" onclick="href="{% url 'home' %}"">
+        </div>
+        <div class="sidebar-box title-box">
+            <h1>MONSTERS</h1>
+        </div>
+        <div class="sidebar-box description-box">
+            <p>Monsters are hostile entities and serve as the main threat to Survivors. There are 73 monsters currently in the game, and information about them can be viewed in the Logbook. Bosses are a category of monster with much higher health and damage output, and are as such more threatening to the player than most regular monsters.</p>
+        </div>
+    </aside>
+
+    <!-- Right Main Content Column -->
+    <main class="icon-grid-container">
+        <div class="icon-grid">
+            {% for monster in monsters %}
+                <a href="{% url 'monster-detail' monster.pk %}" class="icon-card" title="{{ monster.MonsterName }}">
                     <img src="{% static monster.MonsterImg %}" alt="{{ monster.MonsterName }}">
-                    <p>{{ monster.MonsterName }}</p>
                 </a>
-            </div>
-        {% empty %}
-            <p>No monsters found.</p>
-        {% endfor %}
-    </div>
+            {% empty %}
+                <p>No monsters found in the database.</p>
+            {% endfor %}
+        </div>
+    </main>
+</div>
 {% endblock %}

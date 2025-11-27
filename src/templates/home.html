@@ -1,50 +1,108 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Home{% endblock %}
+{# Override the navigation block from base.html to remove it for the homepage #}
+{% block navigation %}{% endblock %}
 
 {% block content %}
-    <h1>Welcome to the Database</h1>
+<style>
+    /* --- General Body and Background Styling --- */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Do Hyeon', sans-serif;
+        background-color: #1A1625; /* Fallback color */
+        /* Use your actual background image path here */
+        background-image: url("{% static 'img-dump/NicoleDoroshArt.png' %}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        overflow: hidden; /* Prevents scrollbars */
+    }
 
-    <h2>Survivors</h2>
-    <div class="grid">
-        {% for survivor in survivors|slice:":5" %} {# Show first 5 survivors #}
-            <div class="card">
-                <a href="{% url 'survivor-detail' survivor.pk %}">
-                    <img src="{% static survivor.SurvivorImg %}" alt="{{ survivor.SurvivorName }}">
-                    <p>{{ survivor.SurvivorName }}</p>
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-    <p><a href="{% url 'survivor-list' %}">View all survivors...</a></p>
-    <hr>
+    /* --- Main container to center everything vertically and horizontally --- */
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding doesn't add to width/height */
+    }
 
-    <h2>Monsters</h2>
-    <div class="grid">
-        {% for monster in monsters|slice:":5" %} {# Show first 5 monsters #}
-            <div class="card">
-                <a href="{% url 'monster-detail' monster.pk %}">
-                    <img src="{% static monster.MonsterImg %}" alt="{{ monster.MonsterName }}">
-                    <p>{{ monster.MonsterName }}</p>
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-    <p><a href="{% url 'monster-list' %}">View all monsters...</a></p>
-    <hr>
+    /* --- Container for the logos --- */
+    .outer-logo-container {
+        /* Nothin neded in here */
+    }
 
-    <h2>Items</h2>
-    <div class="grid">
-        {% for item in items|slice:":5" %} {# Show first 5 items #}
-            <div class="card">
-                <a href="{% url 'item-detail' item.pk %}">
-                    <img src="{% static item.ItemImg %}" alt="{{ item.ItemName }}">
-                    <p>{{ item.ItemName }}</p>
-                </a>
-            </div>
-        {% endfor %}
+    .logo {
+        max-width: 288px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .wordmark-logo {
+        max-width: 1327px;
+        height: auto;
+    }
+
+    /* --- Container for the navigation buttons --- */
+    .button-container {
+        margin-top: 40px; /* Space between logos and buttons */
+    }
+    
+    .home-button {
+        display: inline-block;
+        color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+        padding: 12px 28px;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .home-button:hover {
+        background-color: #8E52FF;
+       
+    }
+
+    .home-button:active {
+        background-color: #8E52FF;
+        box-shadow: inset 6px 6px 43px 0px rgba(255, 255, 255, 0.9); 
+    }
+
+    .home-button:focus {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+</style>
+
+<div class="home-container">
+    <div class="outer-logo-container">
+        <div class="logo-container">
+            <img src="{% static 'img-dump/ror2-logo.svg' %}" alt="Risk of Rain 2 Logo" class="logo">
+        </div>
+        <div class="wordmark-container">
+
+            <img src="{% static 'img-dump/ror2-wordmark.svg' %}" alt="Risk of Rain 2 Wordmark" class="wordmark-logo">
+        </div>
     </div>
-    <p><a href="{% url 'item-list' %}">View all items...</a></p>
+
+    <div class="button-container">
+        <div class="inner-button-container">
+            <a href="{% url 'monster-list' %}" class="home-button">Monsters</a>
+            <a href="{% url 'survivor-list' %}" class="home-button">Survivors</a>
+            <a href="{% url 'item-list' %}" class="home-button">Items</a>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
