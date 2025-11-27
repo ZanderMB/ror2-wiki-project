@@ -31,7 +31,10 @@ services:
   web:
     build: .
     container_name: ROR2_web
-    command: bash -lc "test -f manage.py || django-admin startproject core . && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    command: bash -lc " test -f manage.py || django-admin startproject core . &&
+      python manage.py migrate &&
+      python manage.py import_data &&
+      python manage.py runserver 0.0.0.0:8000"
     environment:
       DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
       DJANGO_DEBUG: ${DJANGO_DEBUG}

@@ -5,14 +5,12 @@ from ROR2_Wiki.models import Item, Monster, Survivor
 class Command(BaseCommand):
     help = 'Import data from separate CSV files for Monsters, Items, and Survivors'
 
-    def handle(self, *args, **kwargs):
-        # --- Define the paths to your CSV files ---
-        # Update these paths to match your project structure
+    def handle(self, *args, **kwargs): #Paths to my data filses
         monster_file_path = '/app/data-dump/monster-data.csv'
         item_file_path = '/app/data-dump/item-data.csv'
         survivor_file_path = '/app/data-dump/survivor-data.csv'
 
-        # --- Call the import functions ---
+        # Import functions
         self.import_monsters(monster_file_path)
         self.import_items(item_file_path)
         self.import_survivors(survivor_file_path)
@@ -26,9 +24,10 @@ class Command(BaseCommand):
             self.stdout.write(self.style.HTTP_INFO(f'Starting monster import from {file_path}...'))
 
             for _, row in df.iterrows():
-                # Use get_or_create to avoid creating duplicates
-                # It checks for a monster with the given MonsterName. If it exists, it does nothing.
-                # If it doesn't exist, it creates a new one with the provided defaults.
+                #get_or_create does what it says on the lid, it either grabs something from the database, or creates it if it cannot find it.
+                #The import_xxxxxxxx function iterate through the CSV file and dumb the row into the table, the get_or_create function will create or skip a row based on
+                # wheter it can find or cannot find the data in the database.
+                # Prevents duplicates withouth havin to use a entrypint.sh
                 obj, created = Monster.objects.get_or_create(
                     MonsterName=row['MonsterName'],
                     defaults={

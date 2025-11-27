@@ -38,7 +38,7 @@ MonsterID,MonsterImg,MonsterName,MonsterHealth,MonsterDamage,MonsterHPRegen,Mons
 37,img-dump\monsters\Magma_Worm.png,Magma Worm,2400 (+720),10 (+2),0,15,20,Melee,Boss
 38,img-dump\monsters\Malachite_Urchin.webp,Malachite Urchin,250 (+75),18 (+3.6),0,100,0,Ranged,Special
 39,img-dump\monsters\Mini_Mushrum.webp,Mini Mushrum,290 (+87),16 (+3.2),0.6,0,2,Ranged,Normal
-40,img-dump\monsters\Mini_Mushrum.webp,Mithrix,1000 (+300),16 (+3.2),0,20,15,Melee / Ranged,Special Boss
+40,img-dump\monsters\Mithrix.webp,Mithrix,1000 (+300),16 (+3.2),0,20,15,Melee / Ranged,Special Boss
 41,img-dump\monsters\Newt.webp,Newt,500000 (+150000),12 (+2.4),0,100,0,N/A,Special
 42,img-dump\monsters\Overloading_Worm.webp,Overloading Worm,12000 (+3600),50 (+10),0,15,20,Melee,Boss
 43,img-dump\monsters\Parent.webp,Parent,585 (+176),16 (+3.2),0,0,11,Melee,Normal
